@@ -97,5 +97,8 @@ odNHoods=pd.crosstab(commuting['oNhood'], commuting['dNhood'], commuting['Worker
 odComms.to_csv('./results/od_communityDistricts.csv')
 odNHoods.to_csv('./results/od_neighbourhoods.csv')
 
-#odCommsMode=commuting.groupby(['oComm', 'dComm', 'Means of Transportation 18']).
+odCommsMode=commuting.groupby(by=['oComm', 'dComm', 'Means of Transportation 18'], as_index=False).sum()
+odNhoodsMode=commuting.groupby(by=['oNhood', 'dNhood', 'Means of Transportation 18'], as_index=False).sum()
+odCommsMode.to_csv('./results/od_communityDistricts_byMode.csv')
+odNhoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
       

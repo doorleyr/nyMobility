@@ -1,18 +1,1496 @@
-oComm,Bronx County,Central Harlem,Central Park,"Clinton, Chelsea",East Harlem,"East Village, Noho, Chinatown","Hamilton heights, Morningside heights",Kings County,"Midtown, Flatiron",New Jersey,Queens County,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy",Upper East Side,"Upper West Side, Lincoln Square","Washington heights, Inwood","West Village, Greenwich, Soho"
-Bronx County,209316.0,4834.0,45.0,15004.0,8092.0,7127.0,4739.0,19786.0,54106.0,6181.0,21464.0,30390.0,18119.0,14405.0,9559.0,9886.0,13967.0
-Central Harlem,3786.0,3812.0,0.0,3035.0,1773.0,1207.0,1408.0,2034.0,9008.0,508.0,1874.0,5253.0,2465.0,1597.0,1879.0,780.0,2741.0
-Central Park,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-"Clinton, Chelsea",745.0,215.0,0.0,8040.0,340.0,996.0,534.0,1942.0,20379.0,909.0,1213.0,6853.0,4435.0,2191.0,1682.0,685.0,5632.0
-East Harlem,2586.0,1141.0,10.0,2362.0,4372.0,1661.0,851.0,1671.0,8894.0,254.0,1887.0,4695.0,3501.0,3713.0,1445.0,555.0,2818.0
-"East Village, Noho, Chinatown",1102.0,465.0,0.0,4035.0,549.0,8143.0,458.0,4756.0,17545.0,769.0,2356.0,10432.0,5764.0,1762.0,987.0,419.0,7690.0
-"Hamilton heights, Morningside heights",2998.0,912.0,0.0,2003.0,835.0,999.0,6497.0,1358.0,8379.0,559.0,1342.0,4075.0,2131.0,1825.0,2156.0,1768.0,2744.0
-Kings County,13369.0,2576.0,34.0,29301.0,5234.0,18571.0,4667.0,487005.0,124811.0,9419.0,68558.0,85248.0,37989.0,21621.0,9826.0,4679.0,42894.0
-"Midtown, Flatiron",393.0,35.0,0.0,1542.0,174.0,487.0,223.0,634.0,16174.0,549.0,330.0,4242.0,3570.0,1101.0,535.0,118.0,2320.0
-New Jersey,8182.0,626.0,0.0,9623.0,1825.0,2937.0,1337.0,6120.0,55438.0,407596.0,6419.0,26881.0,13987.0,5402.0,2776.0,4148.0,10544.0
-Queens County,20923.0,2765.0,100.0,25916.0,6854.0,14374.0,4049.0,84294.0,129198.0,8831.0,400322.0,67345.0,39776.0,30761.0,11722.0,5050.0,29148.0
-"Tribeca, Battery Park, Financial",175.0,10.0,0.0,913.0,145.0,786.0,405.0,900.0,9765.0,484.0,399.0,9186.0,1926.0,554.0,320.0,135.0,3065.0
-"Turtle Bay, Murray Hill, Gramercy",955.0,145.0,0.0,2664.0,323.0,1523.0,133.0,1770.0,29353.0,1414.0,1602.0,9506.0,13048.0,3215.0,670.0,294.0,4367.0
-Upper East Side,2330.0,275.0,15.0,3766.0,2004.0,2004.0,550.0,1963.0,39190.0,1620.0,2477.0,15675.0,12351.0,17739.0,1701.0,678.0,5859.0
-"Upper West Side, Lincoln Square",2272.0,654.0,0.0,6629.0,1355.0,1273.0,2200.0,2547.0,35044.0,2108.0,2299.0,11053.0,6689.0,5198.0,10215.0,2500.0,5731.0
-"Washington heights, Inwood",8239.0,1243.0,10.0,4585.0,1751.0,1497.0,2196.0,2521.0,15197.0,2895.0,2845.0,7062.0,4100.0,3002.0,3615.0,13596.0,3811.0
-"West Village, Greenwich, Soho",445.0,155.0,0.0,2706.0,275.0,1374.0,500.0,1442.0,16334.0,1049.0,923.0,5873.0,3687.0,1494.0,732.0,320.0,10896.0
+,oComm,dComm,Means of Transportation 18,Workers 16 and Over,Unnamed: 5
+0,Bronx County,Bronx County,Bus,58278.0,0.0
+1,Bronx County,Bronx County,"Car, truck, van, motorbike",78570.0,0.0
+2,Bronx County,Bronx County,Cycle,1013.0,0.0
+3,Bronx County,Bronx County,Rail,1391.0,0.0
+4,Bronx County,Bronx County,Subway,31428.0,0.0
+5,Bronx County,Bronx County,Taxi,3457.0,0.0
+6,Bronx County,Bronx County,Walk,35179.0,0.0
+7,Bronx County,Central Harlem,Bus,591.0,0.0
+8,Bronx County,Central Harlem,"Car, truck, van, motorbike",1421.0,0.0
+9,Bronx County,Central Harlem,Cycle,30.0,0.0
+10,Bronx County,Central Harlem,Rail,183.0,0.0
+11,Bronx County,Central Harlem,Subway,2464.0,0.0
+12,Bronx County,Central Harlem,Taxi,65.0,0.0
+13,Bronx County,Central Harlem,Walk,80.0,0.0
+14,Bronx County,Central Park,"Car, truck, van, motorbike",15.0,0.0
+15,Bronx County,Central Park,Subway,30.0,0.0
+16,Bronx County,"Clinton, Chelsea",Bus,953.0,0.0
+17,Bronx County,"Clinton, Chelsea","Car, truck, van, motorbike",2962.0,0.0
+18,Bronx County,"Clinton, Chelsea",Rail,274.0,0.0
+19,Bronx County,"Clinton, Chelsea",Subway,10540.0,0.0
+20,Bronx County,"Clinton, Chelsea",Taxi,210.0,0.0
+21,Bronx County,"Clinton, Chelsea",Walk,65.0,0.0
+22,Bronx County,East Harlem,Bus,752.0,0.0
+23,Bronx County,East Harlem,"Car, truck, van, motorbike",1771.0,0.0
+24,Bronx County,East Harlem,Cycle,30.0,0.0
+25,Bronx County,East Harlem,Rail,45.0,0.0
+26,Bronx County,East Harlem,Subway,5331.0,0.0
+27,Bronx County,East Harlem,Taxi,98.0,0.0
+28,Bronx County,East Harlem,Walk,65.0,0.0
+29,Bronx County,"East Village, Noho, Chinatown",Bus,669.0,0.0
+30,Bronx County,"East Village, Noho, Chinatown","Car, truck, van, motorbike",962.0,0.0
+31,Bronx County,"East Village, Noho, Chinatown",Rail,165.0,0.0
+32,Bronx County,"East Village, Noho, Chinatown",Subway,5226.0,0.0
+33,Bronx County,"East Village, Noho, Chinatown",Taxi,95.0,0.0
+34,Bronx County,"East Village, Noho, Chinatown",Walk,10.0,0.0
+35,Bronx County,"Hamilton heights, Morningside heights",Bus,638.0,0.0
+36,Bronx County,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",1230.0,0.0
+37,Bronx County,"Hamilton heights, Morningside heights",Rail,30.0,0.0
+38,Bronx County,"Hamilton heights, Morningside heights",Subway,2736.0,0.0
+39,Bronx County,"Hamilton heights, Morningside heights",Taxi,20.0,0.0
+40,Bronx County,"Hamilton heights, Morningside heights",Walk,85.0,0.0
+41,Bronx County,Kings County,Bus,1557.0,0.0
+42,Bronx County,Kings County,"Car, truck, van, motorbike",4015.0,0.0
+43,Bronx County,Kings County,Rail,434.0,0.0
+44,Bronx County,Kings County,Subway,13560.0,0.0
+45,Bronx County,Kings County,Taxi,95.0,0.0
+46,Bronx County,Kings County,Walk,125.0,0.0
+47,Bronx County,"Midtown, Flatiron",Bus,6049.0,0.0
+48,Bronx County,"Midtown, Flatiron","Car, truck, van, motorbike",5482.0,0.0
+49,Bronx County,"Midtown, Flatiron",Cycle,55.0,0.0
+50,Bronx County,"Midtown, Flatiron",Rail,2233.0,0.0
+51,Bronx County,"Midtown, Flatiron",Subway,39854.0,0.0
+52,Bronx County,"Midtown, Flatiron",Taxi,104.0,0.0
+53,Bronx County,"Midtown, Flatiron",Walk,329.0,0.0
+54,Bronx County,New Jersey,Bus,960.0,0.0
+55,Bronx County,New Jersey,"Car, truck, van, motorbike",3938.0,0.0
+56,Bronx County,New Jersey,Rail,140.0,0.0
+57,Bronx County,New Jersey,Subway,1073.0,0.0
+58,Bronx County,New Jersey,Walk,70.0,0.0
+59,Bronx County,Queens County,Bus,2330.0,0.0
+60,Bronx County,Queens County,"Car, truck, van, motorbike",8527.0,0.0
+61,Bronx County,Queens County,Cycle,15.0,0.0
+62,Bronx County,Queens County,Rail,470.0,0.0
+63,Bronx County,Queens County,Subway,9914.0,0.0
+64,Bronx County,Queens County,Taxi,135.0,0.0
+65,Bronx County,Queens County,Walk,73.0,0.0
+66,Bronx County,"Tribeca, Battery Park, Financial",Bus,3068.0,0.0
+67,Bronx County,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",4052.0,0.0
+68,Bronx County,"Tribeca, Battery Park, Financial",Cycle,19.0,0.0
+69,Bronx County,"Tribeca, Battery Park, Financial",Rail,920.0,0.0
+70,Bronx County,"Tribeca, Battery Park, Financial",Subway,21761.0,0.0
+71,Bronx County,"Tribeca, Battery Park, Financial",Taxi,355.0,0.0
+72,Bronx County,"Tribeca, Battery Park, Financial",Walk,215.0,0.0
+73,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Bus,1901.0,0.0
+74,Bronx County,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",2217.0,0.0
+75,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Cycle,50.0,0.0
+76,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Rail,788.0,0.0
+77,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Subway,13044.0,0.0
+78,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Taxi,15.0,0.0
+79,Bronx County,"Turtle Bay, Murray Hill, Gramercy",Walk,104.0,0.0
+80,Bronx County,Upper East Side,Bus,1715.0,0.0
+81,Bronx County,Upper East Side,"Car, truck, van, motorbike",1865.0,0.0
+82,Bronx County,Upper East Side,Cycle,60.0,0.0
+83,Bronx County,Upper East Side,Rail,341.0,0.0
+84,Bronx County,Upper East Side,Subway,10240.0,0.0
+85,Bronx County,Upper East Side,Taxi,55.0,0.0
+86,Bronx County,Upper East Side,Walk,129.0,0.0
+87,Bronx County,"Upper West Side, Lincoln Square",Bus,1052.0,0.0
+88,Bronx County,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",1352.0,0.0
+89,Bronx County,"Upper West Side, Lincoln Square",Cycle,35.0,0.0
+90,Bronx County,"Upper West Side, Lincoln Square",Rail,150.0,0.0
+91,Bronx County,"Upper West Side, Lincoln Square",Subway,6910.0,0.0
+92,Bronx County,"Upper West Side, Lincoln Square",Walk,60.0,0.0
+93,Bronx County,"Washington heights, Inwood",Bus,3027.0,0.0
+94,Bronx County,"Washington heights, Inwood","Car, truck, van, motorbike",3099.0,0.0
+95,Bronx County,"Washington heights, Inwood",Rail,59.0,0.0
+96,Bronx County,"Washington heights, Inwood",Subway,3327.0,0.0
+97,Bronx County,"Washington heights, Inwood",Taxi,80.0,0.0
+98,Bronx County,"Washington heights, Inwood",Walk,294.0,0.0
+99,Bronx County,"West Village, Greenwich, Soho",Bus,1186.0,0.0
+100,Bronx County,"West Village, Greenwich, Soho","Car, truck, van, motorbike",1425.0,0.0
+101,Bronx County,"West Village, Greenwich, Soho",Rail,373.0,0.0
+102,Bronx County,"West Village, Greenwich, Soho",Subway,10834.0,0.0
+103,Bronx County,"West Village, Greenwich, Soho",Taxi,65.0,0.0
+104,Bronx County,"West Village, Greenwich, Soho",Walk,84.0,0.0
+105,Central Harlem,Bronx County,Bus,583.0,0.0
+106,Central Harlem,Bronx County,"Car, truck, van, motorbike",1144.0,0.0
+107,Central Harlem,Bronx County,Rail,70.0,0.0
+108,Central Harlem,Bronx County,Subway,1680.0,0.0
+109,Central Harlem,Bronx County,Taxi,100.0,0.0
+110,Central Harlem,Bronx County,Walk,209.0,0.0
+111,Central Harlem,Central Harlem,Bus,720.0,0.0
+112,Central Harlem,Central Harlem,"Car, truck, van, motorbike",335.0,0.0
+113,Central Harlem,Central Harlem,Subway,394.0,0.0
+114,Central Harlem,Central Harlem,Taxi,80.0,0.0
+115,Central Harlem,Central Harlem,Walk,2283.0,0.0
+116,Central Harlem,"Clinton, Chelsea",Bus,115.0,0.0
+117,Central Harlem,"Clinton, Chelsea","Car, truck, van, motorbike",330.0,0.0
+118,Central Harlem,"Clinton, Chelsea",Cycle,85.0,0.0
+119,Central Harlem,"Clinton, Chelsea",Rail,55.0,0.0
+120,Central Harlem,"Clinton, Chelsea",Subway,2275.0,0.0
+121,Central Harlem,"Clinton, Chelsea",Taxi,45.0,0.0
+122,Central Harlem,"Clinton, Chelsea",Walk,130.0,0.0
+123,Central Harlem,East Harlem,Bus,763.0,0.0
+124,Central Harlem,East Harlem,"Car, truck, van, motorbike",294.0,0.0
+125,Central Harlem,East Harlem,Rail,4.0,0.0
+126,Central Harlem,East Harlem,Subway,408.0,0.0
+127,Central Harlem,East Harlem,Taxi,25.0,0.0
+128,Central Harlem,East Harlem,Walk,279.0,0.0
+129,Central Harlem,"East Village, Noho, Chinatown",Bus,124.0,0.0
+130,Central Harlem,"East Village, Noho, Chinatown","Car, truck, van, motorbike",174.0,0.0
+131,Central Harlem,"East Village, Noho, Chinatown",Rail,15.0,0.0
+132,Central Harlem,"East Village, Noho, Chinatown",Subway,799.0,0.0
+133,Central Harlem,"East Village, Noho, Chinatown",Walk,95.0,0.0
+134,Central Harlem,"Hamilton heights, Morningside heights",Bus,330.0,0.0
+135,Central Harlem,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",210.0,0.0
+136,Central Harlem,"Hamilton heights, Morningside heights",Subway,250.0,0.0
+137,Central Harlem,"Hamilton heights, Morningside heights",Taxi,70.0,0.0
+138,Central Harlem,"Hamilton heights, Morningside heights",Walk,548.0,0.0
+139,Central Harlem,Kings County,"Car, truck, van, motorbike",279.0,0.0
+140,Central Harlem,Kings County,Rail,90.0,0.0
+141,Central Harlem,Kings County,Subway,1635.0,0.0
+142,Central Harlem,Kings County,Walk,30.0,0.0
+143,Central Harlem,"Midtown, Flatiron",Bus,1032.0,0.0
+144,Central Harlem,"Midtown, Flatiron","Car, truck, van, motorbike",468.0,0.0
+145,Central Harlem,"Midtown, Flatiron",Cycle,80.0,0.0
+146,Central Harlem,"Midtown, Flatiron",Rail,268.0,0.0
+147,Central Harlem,"Midtown, Flatiron",Subway,6901.0,0.0
+148,Central Harlem,"Midtown, Flatiron",Taxi,75.0,0.0
+149,Central Harlem,"Midtown, Flatiron",Walk,184.0,0.0
+150,Central Harlem,New Jersey,Bus,175.0,0.0
+151,Central Harlem,New Jersey,"Car, truck, van, motorbike",140.0,0.0
+152,Central Harlem,New Jersey,Rail,45.0,0.0
+153,Central Harlem,New Jersey,Subway,148.0,0.0
+154,Central Harlem,Queens County,Bus,130.0,0.0
+155,Central Harlem,Queens County,"Car, truck, van, motorbike",333.0,0.0
+156,Central Harlem,Queens County,Rail,70.0,0.0
+157,Central Harlem,Queens County,Subway,1341.0,0.0
+158,Central Harlem,"Tribeca, Battery Park, Financial",Bus,454.0,0.0
+159,Central Harlem,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",394.0,0.0
+160,Central Harlem,"Tribeca, Battery Park, Financial",Rail,125.0,0.0
+161,Central Harlem,"Tribeca, Battery Park, Financial",Subway,4106.0,0.0
+162,Central Harlem,"Tribeca, Battery Park, Financial",Taxi,4.0,0.0
+163,Central Harlem,"Tribeca, Battery Park, Financial",Walk,170.0,0.0
+164,Central Harlem,"Turtle Bay, Murray Hill, Gramercy",Bus,254.0,0.0
+165,Central Harlem,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",315.0,0.0
+166,Central Harlem,"Turtle Bay, Murray Hill, Gramercy",Rail,75.0,0.0
+167,Central Harlem,"Turtle Bay, Murray Hill, Gramercy",Subway,1681.0,0.0
+168,Central Harlem,"Turtle Bay, Murray Hill, Gramercy",Taxi,15.0,0.0
+169,Central Harlem,"Turtle Bay, Murray Hill, Gramercy",Walk,125.0,0.0
+170,Central Harlem,Upper East Side,Bus,509.0,0.0
+171,Central Harlem,Upper East Side,"Car, truck, van, motorbike",179.0,0.0
+172,Central Harlem,Upper East Side,Subway,779.0,0.0
+173,Central Harlem,Upper East Side,Taxi,55.0,0.0
+174,Central Harlem,Upper East Side,Walk,75.0,0.0
+175,Central Harlem,"Upper West Side, Lincoln Square",Bus,442.0,0.0
+176,Central Harlem,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",302.0,0.0
+177,Central Harlem,"Upper West Side, Lincoln Square",Rail,49.0,0.0
+178,Central Harlem,"Upper West Side, Lincoln Square",Subway,976.0,0.0
+179,Central Harlem,"Upper West Side, Lincoln Square",Taxi,10.0,0.0
+180,Central Harlem,"Upper West Side, Lincoln Square",Walk,100.0,0.0
+181,Central Harlem,"Washington heights, Inwood",Bus,250.0,0.0
+182,Central Harlem,"Washington heights, Inwood","Car, truck, van, motorbike",69.0,0.0
+183,Central Harlem,"Washington heights, Inwood",Rail,4.0,0.0
+184,Central Harlem,"Washington heights, Inwood",Subway,427.0,0.0
+185,Central Harlem,"Washington heights, Inwood",Taxi,30.0,0.0
+186,Central Harlem,"West Village, Greenwich, Soho",Bus,248.0,0.0
+187,Central Harlem,"West Village, Greenwich, Soho","Car, truck, van, motorbike",20.0,0.0
+188,Central Harlem,"West Village, Greenwich, Soho",Cycle,10.0,0.0
+189,Central Harlem,"West Village, Greenwich, Soho",Rail,60.0,0.0
+190,Central Harlem,"West Village, Greenwich, Soho",Subway,2263.0,0.0
+191,Central Harlem,"West Village, Greenwich, Soho",Taxi,40.0,0.0
+192,Central Harlem,"West Village, Greenwich, Soho",Walk,100.0,0.0
+193,Central Park,"Midtown, Flatiron",Walk,15.0,0.0
+194,"Clinton, Chelsea",Bronx County,Bus,25.0,0.0
+195,"Clinton, Chelsea",Bronx County,"Car, truck, van, motorbike",255.0,0.0
+196,"Clinton, Chelsea",Bronx County,Rail,25.0,0.0
+197,"Clinton, Chelsea",Bronx County,Subway,440.0,0.0
+198,"Clinton, Chelsea",Central Harlem,Bus,25.0,0.0
+199,"Clinton, Chelsea",Central Harlem,Rail,15.0,0.0
+200,"Clinton, Chelsea",Central Harlem,Subway,160.0,0.0
+201,"Clinton, Chelsea",Central Harlem,Walk,15.0,0.0
+202,"Clinton, Chelsea","Clinton, Chelsea",Bus,253.0,0.0
+203,"Clinton, Chelsea","Clinton, Chelsea","Car, truck, van, motorbike",234.0,0.0
+204,"Clinton, Chelsea","Clinton, Chelsea",Cycle,125.0,0.0
+205,"Clinton, Chelsea","Clinton, Chelsea",Rail,10.0,0.0
+206,"Clinton, Chelsea","Clinton, Chelsea",Subway,1730.0,0.0
+207,"Clinton, Chelsea","Clinton, Chelsea",Taxi,345.0,0.0
+208,"Clinton, Chelsea","Clinton, Chelsea",Walk,5343.0,0.0
+209,"Clinton, Chelsea",East Harlem,"Car, truck, van, motorbike",15.0,0.0
+210,"Clinton, Chelsea",East Harlem,Cycle,35.0,0.0
+211,"Clinton, Chelsea",East Harlem,Subway,245.0,0.0
+212,"Clinton, Chelsea",East Harlem,Taxi,10.0,0.0
+213,"Clinton, Chelsea",East Harlem,Walk,35.0,0.0
+214,"Clinton, Chelsea","East Village, Noho, Chinatown",Bus,35.0,0.0
+215,"Clinton, Chelsea","East Village, Noho, Chinatown","Car, truck, van, motorbike",25.0,0.0
+216,"Clinton, Chelsea","East Village, Noho, Chinatown",Cycle,35.0,0.0
+217,"Clinton, Chelsea","East Village, Noho, Chinatown",Rail,30.0,0.0
+218,"Clinton, Chelsea","East Village, Noho, Chinatown",Subway,559.0,0.0
+219,"Clinton, Chelsea","East Village, Noho, Chinatown",Walk,312.0,0.0
+220,"Clinton, Chelsea","Hamilton heights, Morningside heights",Bus,15.0,0.0
+221,"Clinton, Chelsea","Hamilton heights, Morningside heights","Car, truck, van, motorbike",20.0,0.0
+222,"Clinton, Chelsea","Hamilton heights, Morningside heights",Subway,495.0,0.0
+223,"Clinton, Chelsea","Hamilton heights, Morningside heights",Walk,4.0,0.0
+224,"Clinton, Chelsea",Kings County,Bus,4.0,0.0
+225,"Clinton, Chelsea",Kings County,"Car, truck, van, motorbike",278.0,0.0
+226,"Clinton, Chelsea",Kings County,Cycle,70.0,0.0
+227,"Clinton, Chelsea",Kings County,Rail,10.0,0.0
+228,"Clinton, Chelsea",Kings County,Subway,1485.0,0.0
+229,"Clinton, Chelsea",Kings County,Walk,95.0,0.0
+230,"Clinton, Chelsea","Midtown, Flatiron",Bus,874.0,0.0
+231,"Clinton, Chelsea","Midtown, Flatiron","Car, truck, van, motorbike",274.0,0.0
+232,"Clinton, Chelsea","Midtown, Flatiron",Cycle,183.0,0.0
+233,"Clinton, Chelsea","Midtown, Flatiron",Rail,125.0,0.0
+234,"Clinton, Chelsea","Midtown, Flatiron",Subway,7581.0,0.0
+235,"Clinton, Chelsea","Midtown, Flatiron",Taxi,963.0,0.0
+236,"Clinton, Chelsea","Midtown, Flatiron",Walk,10379.0,0.0
+237,"Clinton, Chelsea",New Jersey,Bus,225.0,0.0
+238,"Clinton, Chelsea",New Jersey,"Car, truck, van, motorbike",279.0,0.0
+239,"Clinton, Chelsea",New Jersey,Rail,20.0,0.0
+240,"Clinton, Chelsea",New Jersey,Subway,345.0,0.0
+241,"Clinton, Chelsea",New Jersey,Walk,40.0,0.0
+242,"Clinton, Chelsea",Queens County,Bus,10.0,0.0
+243,"Clinton, Chelsea",Queens County,"Car, truck, van, motorbike",100.0,0.0
+244,"Clinton, Chelsea",Queens County,Rail,60.0,0.0
+245,"Clinton, Chelsea",Queens County,Subway,958.0,0.0
+246,"Clinton, Chelsea",Queens County,Walk,85.0,0.0
+247,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Bus,255.0,0.0
+248,"Clinton, Chelsea","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",334.0,0.0
+249,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Cycle,50.0,0.0
+250,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Rail,65.0,0.0
+251,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Subway,4871.0,0.0
+252,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Taxi,284.0,0.0
+253,"Clinton, Chelsea","Tribeca, Battery Park, Financial",Walk,994.0,0.0
+254,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy",Bus,494.0,0.0
+255,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",130.0,0.0
+256,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy",Cycle,105.0,0.0
+257,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy",Subway,2138.0,0.0
+258,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy",Taxi,349.0,0.0
+259,"Clinton, Chelsea","Turtle Bay, Murray Hill, Gramercy",Walk,1219.0,0.0
+260,"Clinton, Chelsea",Upper East Side,Bus,298.0,0.0
+261,"Clinton, Chelsea",Upper East Side,"Car, truck, van, motorbike",65.0,0.0
+262,"Clinton, Chelsea",Upper East Side,Cycle,60.0,0.0
+263,"Clinton, Chelsea",Upper East Side,Subway,1429.0,0.0
+264,"Clinton, Chelsea",Upper East Side,Taxi,90.0,0.0
+265,"Clinton, Chelsea",Upper East Side,Walk,249.0,0.0
+266,"Clinton, Chelsea","Upper West Side, Lincoln Square",Bus,120.0,0.0
+267,"Clinton, Chelsea","Upper West Side, Lincoln Square","Car, truck, van, motorbike",34.0,0.0
+268,"Clinton, Chelsea","Upper West Side, Lincoln Square",Cycle,25.0,0.0
+269,"Clinton, Chelsea","Upper West Side, Lincoln Square",Subway,835.0,0.0
+270,"Clinton, Chelsea","Upper West Side, Lincoln Square",Taxi,54.0,0.0
+271,"Clinton, Chelsea","Upper West Side, Lincoln Square",Walk,614.0,0.0
+272,"Clinton, Chelsea","Washington heights, Inwood","Car, truck, van, motorbike",55.0,0.0
+273,"Clinton, Chelsea","Washington heights, Inwood",Rail,20.0,0.0
+274,"Clinton, Chelsea","Washington heights, Inwood",Subway,575.0,0.0
+275,"Clinton, Chelsea","Washington heights, Inwood",Taxi,10.0,0.0
+276,"Clinton, Chelsea","Washington heights, Inwood",Walk,25.0,0.0
+277,"Clinton, Chelsea","West Village, Greenwich, Soho",Bus,309.0,0.0
+278,"Clinton, Chelsea","West Village, Greenwich, Soho","Car, truck, van, motorbike",174.0,0.0
+279,"Clinton, Chelsea","West Village, Greenwich, Soho",Cycle,175.0,0.0
+280,"Clinton, Chelsea","West Village, Greenwich, Soho",Rail,14.0,0.0
+281,"Clinton, Chelsea","West Village, Greenwich, Soho",Subway,2886.0,0.0
+282,"Clinton, Chelsea","West Village, Greenwich, Soho",Taxi,380.0,0.0
+283,"Clinton, Chelsea","West Village, Greenwich, Soho",Walk,1694.0,0.0
+284,East Harlem,Bronx County,Bus,289.0,0.0
+285,East Harlem,Bronx County,"Car, truck, van, motorbike",413.0,0.0
+286,East Harlem,Bronx County,Cycle,10.0,0.0
+287,East Harlem,Bronx County,Rail,208.0,0.0
+288,East Harlem,Bronx County,Subway,1647.0,0.0
+289,East Harlem,Bronx County,Walk,19.0,0.0
+290,East Harlem,Central Harlem,Bus,287.0,0.0
+291,East Harlem,Central Harlem,"Car, truck, van, motorbike",84.0,0.0
+292,East Harlem,Central Harlem,Cycle,10.0,0.0
+293,East Harlem,Central Harlem,Subway,285.0,0.0
+294,East Harlem,Central Harlem,Taxi,15.0,0.0
+295,East Harlem,Central Harlem,Walk,460.0,0.0
+296,East Harlem,Central Park,Subway,10.0,0.0
+297,East Harlem,"Clinton, Chelsea",Bus,294.0,0.0
+298,East Harlem,"Clinton, Chelsea","Car, truck, van, motorbike",214.0,0.0
+299,East Harlem,"Clinton, Chelsea",Cycle,55.0,0.0
+300,East Harlem,"Clinton, Chelsea",Rail,90.0,0.0
+301,East Harlem,"Clinton, Chelsea",Subway,1536.0,0.0
+302,East Harlem,"Clinton, Chelsea",Walk,173.0,0.0
+303,East Harlem,East Harlem,Bus,593.0,0.0
+304,East Harlem,East Harlem,"Car, truck, van, motorbike",219.0,0.0
+305,East Harlem,East Harlem,Rail,15.0,0.0
+306,East Harlem,East Harlem,Subway,504.0,0.0
+307,East Harlem,East Harlem,Taxi,122.0,0.0
+308,East Harlem,East Harlem,Walk,2919.0,0.0
+309,East Harlem,"East Village, Noho, Chinatown",Bus,413.0,0.0
+310,East Harlem,"East Village, Noho, Chinatown","Car, truck, van, motorbike",140.0,0.0
+311,East Harlem,"East Village, Noho, Chinatown",Cycle,25.0,0.0
+312,East Harlem,"East Village, Noho, Chinatown",Rail,145.0,0.0
+313,East Harlem,"East Village, Noho, Chinatown",Subway,703.0,0.0
+314,East Harlem,"East Village, Noho, Chinatown",Walk,235.0,0.0
+315,East Harlem,"Hamilton heights, Morningside heights",Bus,506.0,0.0
+316,East Harlem,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",115.0,0.0
+317,East Harlem,"Hamilton heights, Morningside heights",Subway,125.0,0.0
+318,East Harlem,"Hamilton heights, Morningside heights",Taxi,10.0,0.0
+319,East Harlem,"Hamilton heights, Morningside heights",Walk,95.0,0.0
+320,East Harlem,Kings County,Bus,80.0,0.0
+321,East Harlem,Kings County,"Car, truck, van, motorbike",248.0,0.0
+322,East Harlem,Kings County,Cycle,10.0,0.0
+323,East Harlem,Kings County,Rail,10.0,0.0
+324,East Harlem,Kings County,Subway,1298.0,0.0
+325,East Harlem,Kings County,Walk,25.0,0.0
+326,East Harlem,"Midtown, Flatiron",Bus,1044.0,0.0
+327,East Harlem,"Midtown, Flatiron","Car, truck, van, motorbike",535.0,0.0
+328,East Harlem,"Midtown, Flatiron",Cycle,50.0,0.0
+329,East Harlem,"Midtown, Flatiron",Rail,488.0,0.0
+330,East Harlem,"Midtown, Flatiron",Subway,5983.0,0.0
+331,East Harlem,"Midtown, Flatiron",Taxi,90.0,0.0
+332,East Harlem,"Midtown, Flatiron",Walk,704.0,0.0
+333,East Harlem,New Jersey,Bus,45.0,0.0
+334,East Harlem,New Jersey,"Car, truck, van, motorbike",79.0,0.0
+335,East Harlem,New Jersey,Subway,130.0,0.0
+336,East Harlem,Queens County,Bus,114.0,0.0
+337,East Harlem,Queens County,"Car, truck, van, motorbike",318.0,0.0
+338,East Harlem,Queens County,Cycle,15.0,0.0
+339,East Harlem,Queens County,Rail,159.0,0.0
+340,East Harlem,Queens County,Subway,1206.0,0.0
+341,East Harlem,Queens County,Walk,75.0,0.0
+342,East Harlem,"Tribeca, Battery Park, Financial",Bus,625.0,0.0
+343,East Harlem,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",254.0,0.0
+344,East Harlem,"Tribeca, Battery Park, Financial",Cycle,125.0,0.0
+345,East Harlem,"Tribeca, Battery Park, Financial",Rail,259.0,0.0
+346,East Harlem,"Tribeca, Battery Park, Financial",Subway,2952.0,0.0
+347,East Harlem,"Tribeca, Battery Park, Financial",Taxi,55.0,0.0
+348,East Harlem,"Tribeca, Battery Park, Financial",Walk,425.0,0.0
+349,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Bus,440.0,0.0
+350,East Harlem,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",233.0,0.0
+351,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Cycle,20.0,0.0
+352,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Rail,110.0,0.0
+353,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Subway,2329.0,0.0
+354,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Taxi,45.0,0.0
+355,East Harlem,"Turtle Bay, Murray Hill, Gramercy",Walk,324.0,0.0
+356,East Harlem,Upper East Side,Bus,993.0,0.0
+357,East Harlem,Upper East Side,"Car, truck, van, motorbike",289.0,0.0
+358,East Harlem,Upper East Side,Cycle,234.0,0.0
+359,East Harlem,Upper East Side,Rail,190.0,0.0
+360,East Harlem,Upper East Side,Subway,1239.0,0.0
+361,East Harlem,Upper East Side,Taxi,39.0,0.0
+362,East Harlem,Upper East Side,Walk,729.0,0.0
+363,East Harlem,"Upper West Side, Lincoln Square",Bus,328.0,0.0
+364,East Harlem,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",64.0,0.0
+365,East Harlem,"Upper West Side, Lincoln Square",Cycle,65.0,0.0
+366,East Harlem,"Upper West Side, Lincoln Square",Rail,120.0,0.0
+367,East Harlem,"Upper West Side, Lincoln Square",Subway,769.0,0.0
+368,East Harlem,"Upper West Side, Lincoln Square",Walk,99.0,0.0
+369,East Harlem,"Washington heights, Inwood",Bus,145.0,0.0
+370,East Harlem,"Washington heights, Inwood","Car, truck, van, motorbike",90.0,0.0
+371,East Harlem,"Washington heights, Inwood",Subway,200.0,0.0
+372,East Harlem,"Washington heights, Inwood",Taxi,60.0,0.0
+373,East Harlem,"Washington heights, Inwood",Walk,60.0,0.0
+374,East Harlem,"West Village, Greenwich, Soho",Bus,363.0,0.0
+375,East Harlem,"West Village, Greenwich, Soho","Car, truck, van, motorbike",134.0,0.0
+376,East Harlem,"West Village, Greenwich, Soho",Cycle,75.0,0.0
+377,East Harlem,"West Village, Greenwich, Soho",Rail,140.0,0.0
+378,East Harlem,"West Village, Greenwich, Soho",Subway,1987.0,0.0
+379,East Harlem,"West Village, Greenwich, Soho",Walk,119.0,0.0
+380,"East Village, Noho, Chinatown",Bronx County,Bus,20.0,0.0
+381,"East Village, Noho, Chinatown",Bronx County,"Car, truck, van, motorbike",389.0,0.0
+382,"East Village, Noho, Chinatown",Bronx County,Rail,30.0,0.0
+383,"East Village, Noho, Chinatown",Bronx County,Subway,643.0,0.0
+384,"East Village, Noho, Chinatown",Bronx County,Walk,20.0,0.0
+385,"East Village, Noho, Chinatown",Central Harlem,"Car, truck, van, motorbike",140.0,0.0
+386,"East Village, Noho, Chinatown",Central Harlem,Rail,25.0,0.0
+387,"East Village, Noho, Chinatown",Central Harlem,Subway,255.0,0.0
+388,"East Village, Noho, Chinatown",Central Harlem,Walk,45.0,0.0
+389,"East Village, Noho, Chinatown","Clinton, Chelsea",Bus,470.0,0.0
+390,"East Village, Noho, Chinatown","Clinton, Chelsea","Car, truck, van, motorbike",185.0,0.0
+391,"East Village, Noho, Chinatown","Clinton, Chelsea",Cycle,115.0,0.0
+392,"East Village, Noho, Chinatown","Clinton, Chelsea",Rail,20.0,0.0
+393,"East Village, Noho, Chinatown","Clinton, Chelsea",Subway,2387.0,0.0
+394,"East Village, Noho, Chinatown","Clinton, Chelsea",Taxi,159.0,0.0
+395,"East Village, Noho, Chinatown","Clinton, Chelsea",Walk,699.0,0.0
+396,"East Village, Noho, Chinatown",East Harlem,Bus,130.0,0.0
+397,"East Village, Noho, Chinatown",East Harlem,"Car, truck, van, motorbike",55.0,0.0
+398,"East Village, Noho, Chinatown",East Harlem,Cycle,15.0,0.0
+399,"East Village, Noho, Chinatown",East Harlem,Rail,15.0,0.0
+400,"East Village, Noho, Chinatown",East Harlem,Subway,189.0,0.0
+401,"East Village, Noho, Chinatown",East Harlem,Walk,145.0,0.0
+402,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Bus,449.0,0.0
+403,"East Village, Noho, Chinatown","East Village, Noho, Chinatown","Car, truck, van, motorbike",255.0,0.0
+404,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Cycle,140.0,0.0
+405,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Rail,50.0,0.0
+406,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Subway,957.0,0.0
+407,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Taxi,65.0,0.0
+408,"East Village, Noho, Chinatown","East Village, Noho, Chinatown",Walk,6227.0,0.0
+409,"East Village, Noho, Chinatown","Hamilton heights, Morningside heights",Bus,55.0,0.0
+410,"East Village, Noho, Chinatown","Hamilton heights, Morningside heights","Car, truck, van, motorbike",35.0,0.0
+411,"East Village, Noho, Chinatown","Hamilton heights, Morningside heights",Subway,233.0,0.0
+412,"East Village, Noho, Chinatown","Hamilton heights, Morningside heights",Walk,135.0,0.0
+413,"East Village, Noho, Chinatown",Kings County,Bus,250.0,0.0
+414,"East Village, Noho, Chinatown",Kings County,"Car, truck, van, motorbike",1072.0,0.0
+415,"East Village, Noho, Chinatown",Kings County,Cycle,150.0,0.0
+416,"East Village, Noho, Chinatown",Kings County,Subway,3174.0,0.0
+417,"East Village, Noho, Chinatown",Kings County,Walk,110.0,0.0
+418,"East Village, Noho, Chinatown","Midtown, Flatiron",Bus,1428.0,0.0
+419,"East Village, Noho, Chinatown","Midtown, Flatiron","Car, truck, van, motorbike",518.0,0.0
+420,"East Village, Noho, Chinatown","Midtown, Flatiron",Cycle,315.0,0.0
+421,"East Village, Noho, Chinatown","Midtown, Flatiron",Rail,179.0,0.0
+422,"East Village, Noho, Chinatown","Midtown, Flatiron",Subway,12255.0,0.0
+423,"East Village, Noho, Chinatown","Midtown, Flatiron",Taxi,320.0,0.0
+424,"East Village, Noho, Chinatown","Midtown, Flatiron",Walk,2530.0,0.0
+425,"East Village, Noho, Chinatown",New Jersey,Bus,125.0,0.0
+426,"East Village, Noho, Chinatown",New Jersey,"Car, truck, van, motorbike",205.0,0.0
+427,"East Village, Noho, Chinatown",New Jersey,Rail,10.0,0.0
+428,"East Village, Noho, Chinatown",New Jersey,Subway,429.0,0.0
+429,"East Village, Noho, Chinatown",Queens County,Bus,100.0,0.0
+430,"East Village, Noho, Chinatown",Queens County,"Car, truck, van, motorbike",679.0,0.0
+431,"East Village, Noho, Chinatown",Queens County,Rail,20.0,0.0
+432,"East Village, Noho, Chinatown",Queens County,Subway,1457.0,0.0
+433,"East Village, Noho, Chinatown",Queens County,Walk,100.0,0.0
+434,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Bus,1404.0,0.0
+435,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",486.0,0.0
+436,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Cycle,420.0,0.0
+437,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Rail,19.0,0.0
+438,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Subway,4867.0,0.0
+439,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Taxi,289.0,0.0
+440,"East Village, Noho, Chinatown","Tribeca, Battery Park, Financial",Walk,2947.0,0.0
+441,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Bus,1473.0,0.0
+442,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",225.0,0.0
+443,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Cycle,120.0,0.0
+444,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Rail,20.0,0.0
+445,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Subway,2554.0,0.0
+446,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Taxi,145.0,0.0
+447,"East Village, Noho, Chinatown","Turtle Bay, Murray Hill, Gramercy",Walk,1227.0,0.0
+448,"East Village, Noho, Chinatown",Upper East Side,Bus,325.0,0.0
+449,"East Village, Noho, Chinatown",Upper East Side,"Car, truck, van, motorbike",140.0,0.0
+450,"East Village, Noho, Chinatown",Upper East Side,Cycle,85.0,0.0
+451,"East Village, Noho, Chinatown",Upper East Side,Rail,40.0,0.0
+452,"East Village, Noho, Chinatown",Upper East Side,Subway,903.0,0.0
+453,"East Village, Noho, Chinatown",Upper East Side,Taxi,49.0,0.0
+454,"East Village, Noho, Chinatown",Upper East Side,Walk,220.0,0.0
+455,"East Village, Noho, Chinatown","Upper West Side, Lincoln Square",Bus,55.0,0.0
+456,"East Village, Noho, Chinatown","Upper West Side, Lincoln Square","Car, truck, van, motorbike",75.0,0.0
+457,"East Village, Noho, Chinatown","Upper West Side, Lincoln Square",Cycle,80.0,0.0
+458,"East Village, Noho, Chinatown","Upper West Side, Lincoln Square",Subway,557.0,0.0
+459,"East Village, Noho, Chinatown","Upper West Side, Lincoln Square",Walk,220.0,0.0
+460,"East Village, Noho, Chinatown","Washington heights, Inwood",Bus,75.0,0.0
+461,"East Village, Noho, Chinatown","Washington heights, Inwood","Car, truck, van, motorbike",45.0,0.0
+462,"East Village, Noho, Chinatown","Washington heights, Inwood",Cycle,30.0,0.0
+463,"East Village, Noho, Chinatown","Washington heights, Inwood",Rail,10.0,0.0
+464,"East Village, Noho, Chinatown","Washington heights, Inwood",Subway,234.0,0.0
+465,"East Village, Noho, Chinatown","Washington heights, Inwood",Walk,25.0,0.0
+466,"East Village, Noho, Chinatown","West Village, Greenwich, Soho",Bus,577.0,0.0
+467,"East Village, Noho, Chinatown","West Village, Greenwich, Soho","Car, truck, van, motorbike",299.0,0.0
+468,"East Village, Noho, Chinatown","West Village, Greenwich, Soho",Cycle,410.0,0.0
+469,"East Village, Noho, Chinatown","West Village, Greenwich, Soho",Subway,2450.0,0.0
+470,"East Village, Noho, Chinatown","West Village, Greenwich, Soho",Taxi,154.0,0.0
+471,"East Village, Noho, Chinatown","West Village, Greenwich, Soho",Walk,3800.0,0.0
+472,"Hamilton heights, Morningside heights",Bronx County,Bus,1020.0,0.0
+473,"Hamilton heights, Morningside heights",Bronx County,"Car, truck, van, motorbike",481.0,0.0
+474,"Hamilton heights, Morningside heights",Bronx County,Rail,29.0,0.0
+475,"Hamilton heights, Morningside heights",Bronx County,Subway,1413.0,0.0
+476,"Hamilton heights, Morningside heights",Bronx County,Taxi,20.0,0.0
+477,"Hamilton heights, Morningside heights",Bronx County,Walk,35.0,0.0
+478,"Hamilton heights, Morningside heights",Central Harlem,Bus,309.0,0.0
+479,"Hamilton heights, Morningside heights",Central Harlem,"Car, truck, van, motorbike",104.0,0.0
+480,"Hamilton heights, Morningside heights",Central Harlem,Subway,150.0,0.0
+481,"Hamilton heights, Morningside heights",Central Harlem,Taxi,24.0,0.0
+482,"Hamilton heights, Morningside heights",Central Harlem,Walk,325.0,0.0
+483,"Hamilton heights, Morningside heights","Clinton, Chelsea",Bus,119.0,0.0
+484,"Hamilton heights, Morningside heights","Clinton, Chelsea","Car, truck, van, motorbike",95.0,0.0
+485,"Hamilton heights, Morningside heights","Clinton, Chelsea",Cycle,50.0,0.0
+486,"Hamilton heights, Morningside heights","Clinton, Chelsea",Rail,44.0,0.0
+487,"Hamilton heights, Morningside heights","Clinton, Chelsea",Subway,1540.0,0.0
+488,"Hamilton heights, Morningside heights","Clinton, Chelsea",Taxi,30.0,0.0
+489,"Hamilton heights, Morningside heights","Clinton, Chelsea",Walk,125.0,0.0
+490,"Hamilton heights, Morningside heights",East Harlem,Bus,377.0,0.0
+491,"Hamilton heights, Morningside heights",East Harlem,"Car, truck, van, motorbike",60.0,0.0
+492,"Hamilton heights, Morningside heights",East Harlem,Cycle,15.0,0.0
+493,"Hamilton heights, Morningside heights",East Harlem,Rail,20.0,0.0
+494,"Hamilton heights, Morningside heights",East Harlem,Subway,248.0,0.0
+495,"Hamilton heights, Morningside heights",East Harlem,Taxi,100.0,0.0
+496,"Hamilton heights, Morningside heights",East Harlem,Walk,15.0,0.0
+497,"Hamilton heights, Morningside heights","East Village, Noho, Chinatown",Bus,180.0,0.0
+498,"Hamilton heights, Morningside heights","East Village, Noho, Chinatown","Car, truck, van, motorbike",45.0,0.0
+499,"Hamilton heights, Morningside heights","East Village, Noho, Chinatown",Subway,639.0,0.0
+500,"Hamilton heights, Morningside heights","East Village, Noho, Chinatown",Taxi,15.0,0.0
+501,"Hamilton heights, Morningside heights","East Village, Noho, Chinatown",Walk,120.0,0.0
+502,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Bus,367.0,0.0
+503,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights","Car, truck, van, motorbike",274.0,0.0
+504,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Cycle,40.0,0.0
+505,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Rail,24.0,0.0
+506,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Subway,753.0,0.0
+507,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Taxi,35.0,0.0
+508,"Hamilton heights, Morningside heights","Hamilton heights, Morningside heights",Walk,5004.0,0.0
+509,"Hamilton heights, Morningside heights",Kings County,Bus,125.0,0.0
+510,"Hamilton heights, Morningside heights",Kings County,"Car, truck, van, motorbike",103.0,0.0
+511,"Hamilton heights, Morningside heights",Kings County,Cycle,15.0,0.0
+512,"Hamilton heights, Morningside heights",Kings County,Rail,39.0,0.0
+513,"Hamilton heights, Morningside heights",Kings County,Subway,1041.0,0.0
+514,"Hamilton heights, Morningside heights",Kings County,Walk,35.0,0.0
+515,"Hamilton heights, Morningside heights","Midtown, Flatiron",Bus,677.0,0.0
+516,"Hamilton heights, Morningside heights","Midtown, Flatiron","Car, truck, van, motorbike",256.0,0.0
+517,"Hamilton heights, Morningside heights","Midtown, Flatiron",Cycle,30.0,0.0
+518,"Hamilton heights, Morningside heights","Midtown, Flatiron",Rail,120.0,0.0
+519,"Hamilton heights, Morningside heights","Midtown, Flatiron",Subway,6991.0,0.0
+520,"Hamilton heights, Morningside heights","Midtown, Flatiron",Taxi,15.0,0.0
+521,"Hamilton heights, Morningside heights","Midtown, Flatiron",Walk,290.0,0.0
+522,"Hamilton heights, Morningside heights",New Jersey,Bus,194.0,0.0
+523,"Hamilton heights, Morningside heights",New Jersey,"Car, truck, van, motorbike",180.0,0.0
+524,"Hamilton heights, Morningside heights",New Jersey,Subway,185.0,0.0
+525,"Hamilton heights, Morningside heights",Queens County,Bus,90.0,0.0
+526,"Hamilton heights, Morningside heights",Queens County,"Car, truck, van, motorbike",374.0,0.0
+527,"Hamilton heights, Morningside heights",Queens County,Rail,15.0,0.0
+528,"Hamilton heights, Morningside heights",Queens County,Subway,758.0,0.0
+529,"Hamilton heights, Morningside heights",Queens County,Taxi,35.0,0.0
+530,"Hamilton heights, Morningside heights",Queens County,Walk,70.0,0.0
+531,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Bus,253.0,0.0
+532,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",105.0,0.0
+533,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Cycle,20.0,0.0
+534,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Rail,60.0,0.0
+535,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Subway,3387.0,0.0
+536,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Taxi,25.0,0.0
+537,"Hamilton heights, Morningside heights","Tribeca, Battery Park, Financial",Walk,225.0,0.0
+538,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy",Bus,123.0,0.0
+539,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",234.0,0.0
+540,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy",Cycle,25.0,0.0
+541,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy",Rail,50.0,0.0
+542,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy",Subway,1569.0,0.0
+543,"Hamilton heights, Morningside heights","Turtle Bay, Murray Hill, Gramercy",Walk,130.0,0.0
+544,"Hamilton heights, Morningside heights",Upper East Side,Bus,418.0,0.0
+545,"Hamilton heights, Morningside heights",Upper East Side,"Car, truck, van, motorbike",195.0,0.0
+546,"Hamilton heights, Morningside heights",Upper East Side,Rail,50.0,0.0
+547,"Hamilton heights, Morningside heights",Upper East Side,Subway,1022.0,0.0
+548,"Hamilton heights, Morningside heights",Upper East Side,Taxi,15.0,0.0
+549,"Hamilton heights, Morningside heights",Upper East Side,Walk,125.0,0.0
+550,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Bus,204.0,0.0
+551,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square","Car, truck, van, motorbike",85.0,0.0
+552,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Cycle,95.0,0.0
+553,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Rail,29.0,0.0
+554,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Subway,1439.0,0.0
+555,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Taxi,40.0,0.0
+556,"Hamilton heights, Morningside heights","Upper West Side, Lincoln Square",Walk,264.0,0.0
+557,"Hamilton heights, Morningside heights","Washington heights, Inwood",Bus,370.0,0.0
+558,"Hamilton heights, Morningside heights","Washington heights, Inwood","Car, truck, van, motorbike",85.0,0.0
+559,"Hamilton heights, Morningside heights","Washington heights, Inwood",Subway,814.0,0.0
+560,"Hamilton heights, Morningside heights","Washington heights, Inwood",Walk,499.0,0.0
+561,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Bus,164.0,0.0
+562,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho","Car, truck, van, motorbike",109.0,0.0
+563,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Cycle,75.0,0.0
+564,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Rail,29.0,0.0
+565,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Subway,2048.0,0.0
+566,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Taxi,10.0,0.0
+567,"Hamilton heights, Morningside heights","West Village, Greenwich, Soho",Walk,309.0,0.0
+568,Kings County,Bronx County,Bus,354.0,0.0
+569,Kings County,Bronx County,"Car, truck, van, motorbike",5523.0,0.0
+570,Kings County,Bronx County,Cycle,90.0,0.0
+571,Kings County,Bronx County,Rail,229.0,0.0
+572,Kings County,Bronx County,Subway,7014.0,0.0
+573,Kings County,Bronx County,Taxi,25.0,0.0
+574,Kings County,Bronx County,Walk,134.0,0.0
+575,Kings County,Central Harlem,Bus,88.0,0.0
+576,Kings County,Central Harlem,"Car, truck, van, motorbike",442.0,0.0
+577,Kings County,Central Harlem,Cycle,30.0,0.0
+578,Kings County,Central Harlem,Rail,40.0,0.0
+579,Kings County,Central Harlem,Subway,1946.0,0.0
+580,Kings County,Central Harlem,Walk,30.0,0.0
+581,Kings County,Central Park,Rail,10.0,0.0
+582,Kings County,Central Park,Subway,24.0,0.0
+583,Kings County,"Clinton, Chelsea",Bus,916.0,0.0
+584,Kings County,"Clinton, Chelsea","Car, truck, van, motorbike",2709.0,0.0
+585,Kings County,"Clinton, Chelsea",Cycle,225.0,0.0
+586,Kings County,"Clinton, Chelsea",Rail,442.0,0.0
+587,Kings County,"Clinton, Chelsea",Subway,24916.0,0.0
+588,Kings County,"Clinton, Chelsea",Taxi,40.0,0.0
+589,Kings County,"Clinton, Chelsea",Walk,53.0,0.0
+590,Kings County,East Harlem,Bus,282.0,0.0
+591,Kings County,East Harlem,"Car, truck, van, motorbike",929.0,0.0
+592,Kings County,East Harlem,Rail,24.0,0.0
+593,Kings County,East Harlem,Subway,3909.0,0.0
+594,Kings County,East Harlem,Walk,90.0,0.0
+595,Kings County,"East Village, Noho, Chinatown",Bus,747.0,0.0
+596,Kings County,"East Village, Noho, Chinatown","Car, truck, van, motorbike",1941.0,0.0
+597,Kings County,"East Village, Noho, Chinatown",Cycle,194.0,0.0
+598,Kings County,"East Village, Noho, Chinatown",Rail,157.0,0.0
+599,Kings County,"East Village, Noho, Chinatown",Subway,15362.0,0.0
+600,Kings County,"East Village, Noho, Chinatown",Taxi,65.0,0.0
+601,Kings County,"East Village, Noho, Chinatown",Walk,105.0,0.0
+602,Kings County,"Hamilton heights, Morningside heights",Bus,179.0,0.0
+603,Kings County,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",579.0,0.0
+604,Kings County,"Hamilton heights, Morningside heights",Cycle,15.0,0.0
+605,Kings County,"Hamilton heights, Morningside heights",Rail,134.0,0.0
+606,Kings County,"Hamilton heights, Morningside heights",Subway,3705.0,0.0
+607,Kings County,"Hamilton heights, Morningside heights",Walk,55.0,0.0
+608,Kings County,Kings County,Bus,89845.0,0.0
+609,Kings County,Kings County,"Car, truck, van, motorbike",165327.0,0.0
+610,Kings County,Kings County,Cycle,6917.0,0.0
+611,Kings County,Kings County,Rail,3016.0,0.0
+612,Kings County,Kings County,Subway,130782.0,0.0
+613,Kings County,Kings County,Taxi,3605.0,0.0
+614,Kings County,Kings County,Walk,87513.0,0.0
+615,Kings County,"Midtown, Flatiron",Bus,5994.0,0.0
+616,Kings County,"Midtown, Flatiron","Car, truck, van, motorbike",6771.0,0.0
+617,Kings County,"Midtown, Flatiron",Cycle,491.0,0.0
+618,Kings County,"Midtown, Flatiron",Rail,1808.0,0.0
+619,Kings County,"Midtown, Flatiron",Subway,109079.0,0.0
+620,Kings County,"Midtown, Flatiron",Taxi,129.0,0.0
+621,Kings County,"Midtown, Flatiron",Walk,539.0,0.0
+622,Kings County,New Jersey,Bus,805.0,0.0
+623,Kings County,New Jersey,"Car, truck, van, motorbike",3720.0,0.0
+624,Kings County,New Jersey,Cycle,18.0,0.0
+625,Kings County,New Jersey,Rail,536.0,0.0
+626,Kings County,New Jersey,Subway,4295.0,0.0
+627,Kings County,New Jersey,Walk,45.0,0.0
+628,Kings County,Queens County,Bus,6812.0,0.0
+629,Kings County,Queens County,"Car, truck, van, motorbike",32299.0,0.0
+630,Kings County,Queens County,Cycle,280.0,0.0
+631,Kings County,Queens County,Rail,859.0,0.0
+632,Kings County,Queens County,Subway,26441.0,0.0
+633,Kings County,Queens County,Taxi,197.0,0.0
+634,Kings County,Queens County,Walk,1670.0,0.0
+635,Kings County,"Tribeca, Battery Park, Financial",Bus,4982.0,0.0
+636,Kings County,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",8058.0,0.0
+637,Kings County,"Tribeca, Battery Park, Financial",Cycle,531.0,0.0
+638,Kings County,"Tribeca, Battery Park, Financial",Rail,1282.0,0.0
+639,Kings County,"Tribeca, Battery Park, Financial",Subway,69558.0,0.0
+640,Kings County,"Tribeca, Battery Park, Financial",Taxi,231.0,0.0
+641,Kings County,"Tribeca, Battery Park, Financial",Walk,606.0,0.0
+642,Kings County,"Turtle Bay, Murray Hill, Gramercy",Bus,2138.0,0.0
+643,Kings County,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",3126.0,0.0
+644,Kings County,"Turtle Bay, Murray Hill, Gramercy",Cycle,363.0,0.0
+645,Kings County,"Turtle Bay, Murray Hill, Gramercy",Rail,637.0,0.0
+646,Kings County,"Turtle Bay, Murray Hill, Gramercy",Subway,31472.0,0.0
+647,Kings County,"Turtle Bay, Murray Hill, Gramercy",Taxi,74.0,0.0
+648,Kings County,"Turtle Bay, Murray Hill, Gramercy",Walk,179.0,0.0
+649,Kings County,Upper East Side,Bus,967.0,0.0
+650,Kings County,Upper East Side,"Car, truck, van, motorbike",2531.0,0.0
+651,Kings County,Upper East Side,Cycle,90.0,0.0
+652,Kings County,Upper East Side,Rail,547.0,0.0
+653,Kings County,Upper East Side,Subway,17300.0,0.0
+654,Kings County,Upper East Side,Taxi,18.0,0.0
+655,Kings County,Upper East Side,Walk,168.0,0.0
+656,Kings County,"Upper West Side, Lincoln Square",Bus,252.0,0.0
+657,Kings County,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",947.0,0.0
+658,Kings County,"Upper West Side, Lincoln Square",Cycle,79.0,0.0
+659,Kings County,"Upper West Side, Lincoln Square",Rail,178.0,0.0
+660,Kings County,"Upper West Side, Lincoln Square",Subway,8300.0,0.0
+661,Kings County,"Upper West Side, Lincoln Square",Walk,70.0,0.0
+662,Kings County,"Washington heights, Inwood",Bus,160.0,0.0
+663,Kings County,"Washington heights, Inwood","Car, truck, van, motorbike",739.0,0.0
+664,Kings County,"Washington heights, Inwood",Rail,80.0,0.0
+665,Kings County,"Washington heights, Inwood",Subway,3625.0,0.0
+666,Kings County,"Washington heights, Inwood",Taxi,25.0,0.0
+667,Kings County,"Washington heights, Inwood",Walk,50.0,0.0
+668,Kings County,"West Village, Greenwich, Soho",Bus,1250.0,0.0
+669,Kings County,"West Village, Greenwich, Soho","Car, truck, van, motorbike",2771.0,0.0
+670,Kings County,"West Village, Greenwich, Soho",Cycle,620.0,0.0
+671,Kings County,"West Village, Greenwich, Soho",Rail,532.0,0.0
+672,Kings County,"West Village, Greenwich, Soho",Subway,37431.0,0.0
+673,Kings County,"West Village, Greenwich, Soho",Taxi,130.0,0.0
+674,Kings County,"West Village, Greenwich, Soho",Walk,160.0,0.0
+675,"Midtown, Flatiron",Bronx County,Bus,69.0,0.0
+676,"Midtown, Flatiron",Bronx County,"Car, truck, van, motorbike",35.0,0.0
+677,"Midtown, Flatiron",Bronx County,Subway,279.0,0.0
+678,"Midtown, Flatiron",Bronx County,Taxi,10.0,0.0
+679,"Midtown, Flatiron",Central Harlem,"Car, truck, van, motorbike",10.0,0.0
+680,"Midtown, Flatiron",Central Harlem,Subway,10.0,0.0
+681,"Midtown, Flatiron",Central Harlem,Walk,15.0,0.0
+682,"Midtown, Flatiron","Clinton, Chelsea",Bus,140.0,0.0
+683,"Midtown, Flatiron","Clinton, Chelsea","Car, truck, van, motorbike",49.0,0.0
+684,"Midtown, Flatiron","Clinton, Chelsea",Cycle,35.0,0.0
+685,"Midtown, Flatiron","Clinton, Chelsea",Subway,352.0,0.0
+686,"Midtown, Flatiron","Clinton, Chelsea",Taxi,130.0,0.0
+687,"Midtown, Flatiron","Clinton, Chelsea",Walk,836.0,0.0
+688,"Midtown, Flatiron",East Harlem,"Car, truck, van, motorbike",10.0,0.0
+689,"Midtown, Flatiron",East Harlem,Subway,154.0,0.0
+690,"Midtown, Flatiron",East Harlem,Taxi,10.0,0.0
+691,"Midtown, Flatiron","East Village, Noho, Chinatown",Cycle,10.0,0.0
+692,"Midtown, Flatiron","East Village, Noho, Chinatown",Subway,293.0,0.0
+693,"Midtown, Flatiron","East Village, Noho, Chinatown",Taxi,65.0,0.0
+694,"Midtown, Flatiron","East Village, Noho, Chinatown",Walk,119.0,0.0
+695,"Midtown, Flatiron","Hamilton heights, Morningside heights",Subway,99.0,0.0
+696,"Midtown, Flatiron","Hamilton heights, Morningside heights",Walk,124.0,0.0
+697,"Midtown, Flatiron",Kings County,Bus,15.0,0.0
+698,"Midtown, Flatiron",Kings County,"Car, truck, van, motorbike",64.0,0.0
+699,"Midtown, Flatiron",Kings County,Rail,4.0,0.0
+700,"Midtown, Flatiron",Kings County,Subway,451.0,0.0
+701,"Midtown, Flatiron",Kings County,Taxi,15.0,0.0
+702,"Midtown, Flatiron",Kings County,Walk,85.0,0.0
+703,"Midtown, Flatiron","Midtown, Flatiron",Bus,504.0,0.0
+704,"Midtown, Flatiron","Midtown, Flatiron","Car, truck, van, motorbike",359.0,0.0
+705,"Midtown, Flatiron","Midtown, Flatiron",Cycle,15.0,0.0
+706,"Midtown, Flatiron","Midtown, Flatiron",Rail,53.0,0.0
+707,"Midtown, Flatiron","Midtown, Flatiron",Subway,5080.0,0.0
+708,"Midtown, Flatiron","Midtown, Flatiron",Taxi,714.0,0.0
+709,"Midtown, Flatiron","Midtown, Flatiron",Walk,9449.0,0.0
+710,"Midtown, Flatiron",New Jersey,"Car, truck, van, motorbike",240.0,0.0
+711,"Midtown, Flatiron",New Jersey,Subway,294.0,0.0
+712,"Midtown, Flatiron",New Jersey,Walk,15.0,0.0
+713,"Midtown, Flatiron",Queens County,Bus,19.0,0.0
+714,"Midtown, Flatiron",Queens County,"Car, truck, van, motorbike",44.0,0.0
+715,"Midtown, Flatiron",Queens County,Rail,15.0,0.0
+716,"Midtown, Flatiron",Queens County,Subway,212.0,0.0
+717,"Midtown, Flatiron",Queens County,Taxi,20.0,0.0
+718,"Midtown, Flatiron",Queens County,Walk,20.0,0.0
+719,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Bus,115.0,0.0
+720,"Midtown, Flatiron","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",120.0,0.0
+721,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Cycle,30.0,0.0
+722,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Rail,40.0,0.0
+723,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Subway,3072.0,0.0
+724,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Taxi,230.0,0.0
+725,"Midtown, Flatiron","Tribeca, Battery Park, Financial",Walk,635.0,0.0
+726,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Bus,285.0,0.0
+727,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",85.0,0.0
+728,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Cycle,25.0,0.0
+729,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Rail,25.0,0.0
+730,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Subway,1289.0,0.0
+731,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Taxi,163.0,0.0
+732,"Midtown, Flatiron","Turtle Bay, Murray Hill, Gramercy",Walk,1698.0,0.0
+733,"Midtown, Flatiron",Upper East Side,Bus,160.0,0.0
+734,"Midtown, Flatiron",Upper East Side,"Car, truck, van, motorbike",39.0,0.0
+735,"Midtown, Flatiron",Upper East Side,Subway,634.0,0.0
+736,"Midtown, Flatiron",Upper East Side,Taxi,55.0,0.0
+737,"Midtown, Flatiron",Upper East Side,Walk,213.0,0.0
+738,"Midtown, Flatiron","Upper West Side, Lincoln Square",Bus,23.0,0.0
+739,"Midtown, Flatiron","Upper West Side, Lincoln Square",Subway,417.0,0.0
+740,"Midtown, Flatiron","Upper West Side, Lincoln Square",Taxi,45.0,0.0
+741,"Midtown, Flatiron","Upper West Side, Lincoln Square",Walk,50.0,0.0
+742,"Midtown, Flatiron","Washington heights, Inwood",Bus,4.0,0.0
+743,"Midtown, Flatiron","Washington heights, Inwood","Car, truck, van, motorbike",10.0,0.0
+744,"Midtown, Flatiron","Washington heights, Inwood",Subway,104.0,0.0
+745,"Midtown, Flatiron","West Village, Greenwich, Soho",Bus,115.0,0.0
+746,"Midtown, Flatiron","West Village, Greenwich, Soho","Car, truck, van, motorbike",28.0,0.0
+747,"Midtown, Flatiron","West Village, Greenwich, Soho",Cycle,40.0,0.0
+748,"Midtown, Flatiron","West Village, Greenwich, Soho",Subway,1108.0,0.0
+749,"Midtown, Flatiron","West Village, Greenwich, Soho",Taxi,100.0,0.0
+750,"Midtown, Flatiron","West Village, Greenwich, Soho",Walk,929.0,0.0
+751,New Jersey,Bronx County,Bus,677.0,0.0
+752,New Jersey,Bronx County,"Car, truck, van, motorbike",7079.0,0.0
+753,New Jersey,Bronx County,Cycle,20.0,0.0
+754,New Jersey,Bronx County,Rail,49.0,0.0
+755,New Jersey,Bronx County,Subway,357.0,0.0
+756,New Jersey,Central Harlem,Bus,180.0,0.0
+757,New Jersey,Central Harlem,"Car, truck, van, motorbike",297.0,0.0
+758,New Jersey,Central Harlem,Rail,15.0,0.0
+759,New Jersey,Central Harlem,Subway,134.0,0.0
+760,New Jersey,"Clinton, Chelsea",Bus,3778.0,0.0
+761,New Jersey,"Clinton, Chelsea","Car, truck, van, motorbike",3169.0,0.0
+762,New Jersey,"Clinton, Chelsea",Rail,440.0,0.0
+763,New Jersey,"Clinton, Chelsea",Subway,2146.0,0.0
+764,New Jersey,"Clinton, Chelsea",Taxi,15.0,0.0
+765,New Jersey,"Clinton, Chelsea",Walk,75.0,0.0
+766,New Jersey,East Harlem,Bus,284.0,0.0
+767,New Jersey,East Harlem,"Car, truck, van, motorbike",1237.0,0.0
+768,New Jersey,East Harlem,Subway,279.0,0.0
+769,New Jersey,East Harlem,Walk,25.0,0.0
+770,New Jersey,"East Village, Noho, Chinatown",Bus,1269.0,0.0
+771,New Jersey,"East Village, Noho, Chinatown","Car, truck, van, motorbike",937.0,0.0
+772,New Jersey,"East Village, Noho, Chinatown",Rail,103.0,0.0
+773,New Jersey,"East Village, Noho, Chinatown",Subway,613.0,0.0
+774,New Jersey,"East Village, Noho, Chinatown",Taxi,15.0,0.0
+775,New Jersey,"Hamilton heights, Morningside heights",Bus,413.0,0.0
+776,New Jersey,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",656.0,0.0
+777,New Jersey,"Hamilton heights, Morningside heights",Cycle,10.0,0.0
+778,New Jersey,"Hamilton heights, Morningside heights",Rail,35.0,0.0
+779,New Jersey,"Hamilton heights, Morningside heights",Subway,223.0,0.0
+780,New Jersey,Kings County,Bus,1199.0,0.0
+781,New Jersey,Kings County,"Car, truck, van, motorbike",3049.0,0.0
+782,New Jersey,Kings County,Rail,308.0,0.0
+783,New Jersey,Kings County,Subway,1514.0,0.0
+784,New Jersey,Kings County,Taxi,25.0,0.0
+785,New Jersey,Kings County,Walk,25.0,0.0
+786,New Jersey,"Midtown, Flatiron",Bus,26853.0,0.0
+787,New Jersey,"Midtown, Flatiron","Car, truck, van, motorbike",10192.0,0.0
+788,New Jersey,"Midtown, Flatiron",Cycle,40.0,0.0
+789,New Jersey,"Midtown, Flatiron",Rail,3661.0,0.0
+790,New Jersey,"Midtown, Flatiron",Subway,14444.0,0.0
+791,New Jersey,"Midtown, Flatiron",Taxi,55.0,0.0
+792,New Jersey,"Midtown, Flatiron",Walk,193.0,0.0
+793,New Jersey,New Jersey,Bus,43765.0,0.0
+794,New Jersey,New Jersey,"Car, truck, van, motorbike",316428.0,0.0
+795,New Jersey,New Jersey,Cycle,1600.0,0.0
+796,New Jersey,New Jersey,Rail,3414.0,0.0
+797,New Jersey,New Jersey,Subway,3754.0,0.0
+798,New Jersey,New Jersey,Taxi,585.0,0.0
+799,New Jersey,New Jersey,Walk,38050.0,0.0
+800,New Jersey,Queens County,Bus,1287.0,0.0
+801,New Jersey,Queens County,"Car, truck, van, motorbike",4139.0,0.0
+802,New Jersey,Queens County,Cycle,10.0,0.0
+803,New Jersey,Queens County,Rail,209.0,0.0
+804,New Jersey,Queens County,Subway,674.0,0.0
+805,New Jersey,Queens County,Taxi,10.0,0.0
+806,New Jersey,Queens County,Walk,90.0,0.0
+807,New Jersey,"Tribeca, Battery Park, Financial",Bus,8090.0,0.0
+808,New Jersey,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",4597.0,0.0
+809,New Jersey,"Tribeca, Battery Park, Financial",Cycle,15.0,0.0
+810,New Jersey,"Tribeca, Battery Park, Financial",Rail,3733.0,0.0
+811,New Jersey,"Tribeca, Battery Park, Financial",Subway,10247.0,0.0
+812,New Jersey,"Tribeca, Battery Park, Financial",Taxi,19.0,0.0
+813,New Jersey,"Tribeca, Battery Park, Financial",Walk,180.0,0.0
+814,New Jersey,"Turtle Bay, Murray Hill, Gramercy",Bus,6141.0,0.0
+815,New Jersey,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",3302.0,0.0
+816,New Jersey,"Turtle Bay, Murray Hill, Gramercy",Rail,831.0,0.0
+817,New Jersey,"Turtle Bay, Murray Hill, Gramercy",Subway,3669.0,0.0
+818,New Jersey,"Turtle Bay, Murray Hill, Gramercy",Walk,44.0,0.0
+819,New Jersey,Upper East Side,Bus,1489.0,0.0
+820,New Jersey,Upper East Side,"Car, truck, van, motorbike",2843.0,0.0
+821,New Jersey,Upper East Side,Rail,124.0,0.0
+822,New Jersey,Upper East Side,Subway,926.0,0.0
+823,New Jersey,Upper East Side,Walk,20.0,0.0
+824,New Jersey,"Upper West Side, Lincoln Square",Bus,704.0,0.0
+825,New Jersey,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",1287.0,0.0
+826,New Jersey,"Upper West Side, Lincoln Square",Rail,55.0,0.0
+827,New Jersey,"Upper West Side, Lincoln Square",Subway,720.0,0.0
+828,New Jersey,"Upper West Side, Lincoln Square",Taxi,10.0,0.0
+829,New Jersey,"Washington heights, Inwood",Bus,1270.0,0.0
+830,New Jersey,"Washington heights, Inwood","Car, truck, van, motorbike",2579.0,0.0
+831,New Jersey,"Washington heights, Inwood",Rail,15.0,0.0
+832,New Jersey,"Washington heights, Inwood",Subway,284.0,0.0
+833,New Jersey,"West Village, Greenwich, Soho",Bus,3536.0,0.0
+834,New Jersey,"West Village, Greenwich, Soho","Car, truck, van, motorbike",2086.0,0.0
+835,New Jersey,"West Village, Greenwich, Soho",Cycle,10.0,0.0
+836,New Jersey,"West Village, Greenwich, Soho",Rail,908.0,0.0
+837,New Jersey,"West Village, Greenwich, Soho",Subway,3950.0,0.0
+838,New Jersey,"West Village, Greenwich, Soho",Taxi,10.0,0.0
+839,New Jersey,"West Village, Greenwich, Soho",Walk,44.0,0.0
+840,Queens County,Bronx County,Bus,1321.0,0.0
+841,Queens County,Bronx County,"Car, truck, van, motorbike",13101.0,0.0
+842,Queens County,Bronx County,Rail,118.0,0.0
+843,Queens County,Bronx County,Subway,6235.0,0.0
+844,Queens County,Bronx County,Taxi,20.0,0.0
+845,Queens County,Bronx County,Walk,128.0,0.0
+846,Queens County,Central Harlem,Bus,239.0,0.0
+847,Queens County,Central Harlem,"Car, truck, van, motorbike",756.0,0.0
+848,Queens County,Central Harlem,Rail,118.0,0.0
+849,Queens County,Central Harlem,Subway,1627.0,0.0
+850,Queens County,Central Harlem,Taxi,10.0,0.0
+851,Queens County,Central Harlem,Walk,15.0,0.0
+852,Queens County,Central Park,Subway,100.0,0.0
+853,Queens County,"Clinton, Chelsea",Bus,1377.0,0.0
+854,Queens County,"Clinton, Chelsea","Car, truck, van, motorbike",3948.0,0.0
+855,Queens County,"Clinton, Chelsea",Cycle,15.0,0.0
+856,Queens County,"Clinton, Chelsea",Rail,1654.0,0.0
+857,Queens County,"Clinton, Chelsea",Subway,18729.0,0.0
+858,Queens County,"Clinton, Chelsea",Taxi,95.0,0.0
+859,Queens County,"Clinton, Chelsea",Walk,98.0,0.0
+860,Queens County,East Harlem,Bus,460.0,0.0
+861,Queens County,East Harlem,"Car, truck, van, motorbike",2169.0,0.0
+862,Queens County,East Harlem,Cycle,19.0,0.0
+863,Queens County,East Harlem,Rail,153.0,0.0
+864,Queens County,East Harlem,Subway,4023.0,0.0
+865,Queens County,East Harlem,Taxi,15.0,0.0
+866,Queens County,East Harlem,Walk,15.0,0.0
+867,Queens County,"East Village, Noho, Chinatown",Bus,678.0,0.0
+868,Queens County,"East Village, Noho, Chinatown","Car, truck, van, motorbike",2758.0,0.0
+869,Queens County,"East Village, Noho, Chinatown",Rail,374.0,0.0
+870,Queens County,"East Village, Noho, Chinatown",Subway,10485.0,0.0
+871,Queens County,"East Village, Noho, Chinatown",Taxi,14.0,0.0
+872,Queens County,"East Village, Noho, Chinatown",Walk,65.0,0.0
+873,Queens County,"Hamilton heights, Morningside heights",Bus,288.0,0.0
+874,Queens County,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",1135.0,0.0
+875,Queens County,"Hamilton heights, Morningside heights",Rail,95.0,0.0
+876,Queens County,"Hamilton heights, Morningside heights",Subway,2471.0,0.0
+877,Queens County,"Hamilton heights, Morningside heights",Walk,60.0,0.0
+878,Queens County,Kings County,Bus,6425.0,0.0
+879,Queens County,Kings County,"Car, truck, van, motorbike",48180.0,0.0
+880,Queens County,Kings County,Cycle,99.0,0.0
+881,Queens County,Kings County,Rail,1533.0,0.0
+882,Queens County,Kings County,Subway,26676.0,0.0
+883,Queens County,Kings County,Taxi,293.0,0.0
+884,Queens County,Kings County,Walk,1088.0,0.0
+885,Queens County,"Midtown, Flatiron",Bus,10469.0,0.0
+886,Queens County,"Midtown, Flatiron","Car, truck, van, motorbike",11515.0,0.0
+887,Queens County,"Midtown, Flatiron",Cycle,135.0,0.0
+888,Queens County,"Midtown, Flatiron",Rail,7709.0,0.0
+889,Queens County,"Midtown, Flatiron",Subway,98758.0,0.0
+890,Queens County,"Midtown, Flatiron",Taxi,154.0,0.0
+891,Queens County,"Midtown, Flatiron",Walk,458.0,0.0
+892,Queens County,New Jersey,Bus,793.0,0.0
+893,Queens County,New Jersey,"Car, truck, van, motorbike",4519.0,0.0
+894,Queens County,New Jersey,Rail,522.0,0.0
+895,Queens County,New Jersey,Subway,2963.0,0.0
+896,Queens County,New Jersey,Taxi,20.0,0.0
+897,Queens County,New Jersey,Walk,14.0,0.0
+898,Queens County,Queens County,Bus,69986.0,0.0
+899,Queens County,Queens County,"Car, truck, van, motorbike",199584.0,0.0
+900,Queens County,Queens County,Cycle,3040.0,0.0
+901,Queens County,Queens County,Rail,2444.0,0.0
+902,Queens County,Queens County,Subway,68738.0,0.0
+903,Queens County,Queens County,Taxi,2830.0,0.0
+904,Queens County,Queens County,Walk,53700.0,0.0
+905,Queens County,"Tribeca, Battery Park, Financial",Bus,5377.0,0.0
+906,Queens County,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",10313.0,0.0
+907,Queens County,"Tribeca, Battery Park, Financial",Cycle,90.0,0.0
+908,Queens County,"Tribeca, Battery Park, Financial",Rail,3321.0,0.0
+909,Queens County,"Tribeca, Battery Park, Financial",Subway,47585.0,0.0
+910,Queens County,"Tribeca, Battery Park, Financial",Taxi,364.0,0.0
+911,Queens County,"Tribeca, Battery Park, Financial",Walk,295.0,0.0
+912,Queens County,"Turtle Bay, Murray Hill, Gramercy",Bus,3920.0,0.0
+913,Queens County,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",5044.0,0.0
+914,Queens County,"Turtle Bay, Murray Hill, Gramercy",Cycle,110.0,0.0
+915,Queens County,"Turtle Bay, Murray Hill, Gramercy",Rail,1851.0,0.0
+916,Queens County,"Turtle Bay, Murray Hill, Gramercy",Subway,28708.0,0.0
+917,Queens County,"Turtle Bay, Murray Hill, Gramercy",Taxi,74.0,0.0
+918,Queens County,"Turtle Bay, Murray Hill, Gramercy",Walk,69.0,0.0
+919,Queens County,Upper East Side,Bus,2282.0,0.0
+920,Queens County,Upper East Side,"Car, truck, van, motorbike",5214.0,0.0
+921,Queens County,Upper East Side,Cycle,119.0,0.0
+922,Queens County,Upper East Side,Rail,1058.0,0.0
+923,Queens County,Upper East Side,Subway,21884.0,0.0
+924,Queens County,Upper East Side,Taxi,35.0,0.0
+925,Queens County,Upper East Side,Walk,169.0,0.0
+926,Queens County,"Upper West Side, Lincoln Square",Bus,591.0,0.0
+927,Queens County,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",1593.0,0.0
+928,Queens County,"Upper West Side, Lincoln Square",Cycle,35.0,0.0
+929,Queens County,"Upper West Side, Lincoln Square",Rail,465.0,0.0
+930,Queens County,"Upper West Side, Lincoln Square",Subway,8974.0,0.0
+931,Queens County,"Upper West Side, Lincoln Square",Taxi,25.0,0.0
+932,Queens County,"Upper West Side, Lincoln Square",Walk,39.0,0.0
+933,Queens County,"Washington heights, Inwood",Bus,294.0,0.0
+934,Queens County,"Washington heights, Inwood","Car, truck, van, motorbike",1315.0,0.0
+935,Queens County,"Washington heights, Inwood",Rail,114.0,0.0
+936,Queens County,"Washington heights, Inwood",Subway,3263.0,0.0
+937,Queens County,"Washington heights, Inwood",Taxi,15.0,0.0
+938,Queens County,"Washington heights, Inwood",Walk,49.0,0.0
+939,Queens County,"West Village, Greenwich, Soho",Bus,1914.0,0.0
+940,Queens County,"West Village, Greenwich, Soho","Car, truck, van, motorbike",3792.0,0.0
+941,Queens County,"West Village, Greenwich, Soho",Cycle,65.0,0.0
+942,Queens County,"West Village, Greenwich, Soho",Rail,1293.0,0.0
+943,Queens County,"West Village, Greenwich, Soho",Subway,21910.0,0.0
+944,Queens County,"West Village, Greenwich, Soho",Taxi,90.0,0.0
+945,Queens County,"West Village, Greenwich, Soho",Walk,84.0,0.0
+946,"Tribeca, Battery Park, Financial",Bronx County,"Car, truck, van, motorbike",60.0,0.0
+947,"Tribeca, Battery Park, Financial",Bronx County,Subway,115.0,0.0
+948,"Tribeca, Battery Park, Financial",Central Harlem,Walk,10.0,0.0
+949,"Tribeca, Battery Park, Financial","Clinton, Chelsea",Bus,35.0,0.0
+950,"Tribeca, Battery Park, Financial","Clinton, Chelsea","Car, truck, van, motorbike",14.0,0.0
+951,"Tribeca, Battery Park, Financial","Clinton, Chelsea",Subway,724.0,0.0
+952,"Tribeca, Battery Park, Financial","Clinton, Chelsea",Taxi,90.0,0.0
+953,"Tribeca, Battery Park, Financial","Clinton, Chelsea",Walk,50.0,0.0
+954,"Tribeca, Battery Park, Financial",East Harlem,Bus,35.0,0.0
+955,"Tribeca, Battery Park, Financial",East Harlem,Subway,110.0,0.0
+956,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown",Bus,80.0,0.0
+957,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown","Car, truck, van, motorbike",40.0,0.0
+958,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown",Cycle,20.0,0.0
+959,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown",Subway,166.0,0.0
+960,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown",Taxi,35.0,0.0
+961,"Tribeca, Battery Park, Financial","East Village, Noho, Chinatown",Walk,445.0,0.0
+962,"Tribeca, Battery Park, Financial","Hamilton heights, Morningside heights",Bus,10.0,0.0
+963,"Tribeca, Battery Park, Financial","Hamilton heights, Morningside heights","Car, truck, van, motorbike",15.0,0.0
+964,"Tribeca, Battery Park, Financial","Hamilton heights, Morningside heights",Subway,270.0,0.0
+965,"Tribeca, Battery Park, Financial","Hamilton heights, Morningside heights",Walk,110.0,0.0
+966,"Tribeca, Battery Park, Financial",Kings County,Bus,24.0,0.0
+967,"Tribeca, Battery Park, Financial",Kings County,"Car, truck, van, motorbike",180.0,0.0
+968,"Tribeca, Battery Park, Financial",Kings County,Subway,666.0,0.0
+969,"Tribeca, Battery Park, Financial",Kings County,Taxi,20.0,0.0
+970,"Tribeca, Battery Park, Financial",Kings County,Walk,10.0,0.0
+971,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Bus,133.0,0.0
+972,"Tribeca, Battery Park, Financial","Midtown, Flatiron","Car, truck, van, motorbike",143.0,0.0
+973,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Cycle,65.0,0.0
+974,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Rail,34.0,0.0
+975,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Subway,8047.0,0.0
+976,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Taxi,573.0,0.0
+977,"Tribeca, Battery Park, Financial","Midtown, Flatiron",Walk,770.0,0.0
+978,"Tribeca, Battery Park, Financial",New Jersey,Bus,40.0,0.0
+979,"Tribeca, Battery Park, Financial",New Jersey,"Car, truck, van, motorbike",139.0,0.0
+980,"Tribeca, Battery Park, Financial",New Jersey,Rail,20.0,0.0
+981,"Tribeca, Battery Park, Financial",New Jersey,Subway,270.0,0.0
+982,"Tribeca, Battery Park, Financial",New Jersey,Walk,15.0,0.0
+983,"Tribeca, Battery Park, Financial",Queens County,"Car, truck, van, motorbike",90.0,0.0
+984,"Tribeca, Battery Park, Financial",Queens County,Subway,279.0,0.0
+985,"Tribeca, Battery Park, Financial",Queens County,Taxi,20.0,0.0
+986,"Tribeca, Battery Park, Financial",Queens County,Walk,10.0,0.0
+987,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Bus,64.0,0.0
+988,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",200.0,0.0
+989,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Cycle,125.0,0.0
+990,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Rail,19.0,0.0
+991,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Subway,1364.0,0.0
+992,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Taxi,240.0,0.0
+993,"Tribeca, Battery Park, Financial","Tribeca, Battery Park, Financial",Walk,7174.0,0.0
+994,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy",Bus,100.0,0.0
+995,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",75.0,0.0
+996,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy",Subway,1326.0,0.0
+997,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy",Taxi,145.0,0.0
+998,"Tribeca, Battery Park, Financial","Turtle Bay, Murray Hill, Gramercy",Walk,280.0,0.0
+999,"Tribeca, Battery Park, Financial",Upper East Side,Bus,35.0,0.0
+1000,"Tribeca, Battery Park, Financial",Upper East Side,"Car, truck, van, motorbike",25.0,0.0
+1001,"Tribeca, Battery Park, Financial",Upper East Side,Subway,414.0,0.0
+1002,"Tribeca, Battery Park, Financial",Upper East Side,Taxi,10.0,0.0
+1003,"Tribeca, Battery Park, Financial",Upper East Side,Walk,70.0,0.0
+1004,"Tribeca, Battery Park, Financial","Upper West Side, Lincoln Square","Car, truck, van, motorbike",50.0,0.0
+1005,"Tribeca, Battery Park, Financial","Upper West Side, Lincoln Square",Subway,260.0,0.0
+1006,"Tribeca, Battery Park, Financial","Upper West Side, Lincoln Square",Walk,10.0,0.0
+1007,"Tribeca, Battery Park, Financial","Washington heights, Inwood",Bus,10.0,0.0
+1008,"Tribeca, Battery Park, Financial","Washington heights, Inwood","Car, truck, van, motorbike",15.0,0.0
+1009,"Tribeca, Battery Park, Financial","Washington heights, Inwood",Subway,80.0,0.0
+1010,"Tribeca, Battery Park, Financial","Washington heights, Inwood",Walk,30.0,0.0
+1011,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho",Bus,210.0,0.0
+1012,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho","Car, truck, van, motorbike",95.0,0.0
+1013,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho",Cycle,55.0,0.0
+1014,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho",Subway,1789.0,0.0
+1015,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho",Taxi,54.0,0.0
+1016,"Tribeca, Battery Park, Financial","West Village, Greenwich, Soho",Walk,862.0,0.0
+1017,"Turtle Bay, Murray Hill, Gramercy",Bronx County,Bus,70.0,0.0
+1018,"Turtle Bay, Murray Hill, Gramercy",Bronx County,"Car, truck, van, motorbike",240.0,0.0
+1019,"Turtle Bay, Murray Hill, Gramercy",Bronx County,Subway,645.0,0.0
+1020,"Turtle Bay, Murray Hill, Gramercy",Central Harlem,Subway,115.0,0.0
+1021,"Turtle Bay, Murray Hill, Gramercy",Central Harlem,Walk,30.0,0.0
+1022,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Bus,414.0,0.0
+1023,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea","Car, truck, van, motorbike",160.0,0.0
+1024,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Cycle,50.0,0.0
+1025,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Rail,40.0,0.0
+1026,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Subway,870.0,0.0
+1027,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Taxi,245.0,0.0
+1028,"Turtle Bay, Murray Hill, Gramercy","Clinton, Chelsea",Walk,885.0,0.0
+1029,"Turtle Bay, Murray Hill, Gramercy",East Harlem,Bus,59.0,0.0
+1030,"Turtle Bay, Murray Hill, Gramercy",East Harlem,"Car, truck, van, motorbike",105.0,0.0
+1031,"Turtle Bay, Murray Hill, Gramercy",East Harlem,Subway,124.0,0.0
+1032,"Turtle Bay, Murray Hill, Gramercy",East Harlem,Taxi,25.0,0.0
+1033,"Turtle Bay, Murray Hill, Gramercy",East Harlem,Walk,10.0,0.0
+1034,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown",Bus,314.0,0.0
+1035,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown","Car, truck, van, motorbike",70.0,0.0
+1036,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown",Cycle,40.0,0.0
+1037,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown",Subway,314.0,0.0
+1038,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown",Taxi,140.0,0.0
+1039,"Turtle Bay, Murray Hill, Gramercy","East Village, Noho, Chinatown",Walk,645.0,0.0
+1040,"Turtle Bay, Murray Hill, Gramercy","Hamilton heights, Morningside heights",Bus,25.0,0.0
+1041,"Turtle Bay, Murray Hill, Gramercy","Hamilton heights, Morningside heights","Car, truck, van, motorbike",4.0,0.0
+1042,"Turtle Bay, Murray Hill, Gramercy","Hamilton heights, Morningside heights",Cycle,10.0,0.0
+1043,"Turtle Bay, Murray Hill, Gramercy","Hamilton heights, Morningside heights",Subway,84.0,0.0
+1044,"Turtle Bay, Murray Hill, Gramercy","Hamilton heights, Morningside heights",Walk,10.0,0.0
+1045,"Turtle Bay, Murray Hill, Gramercy",Kings County,Bus,40.0,0.0
+1046,"Turtle Bay, Murray Hill, Gramercy",Kings County,"Car, truck, van, motorbike",493.0,0.0
+1047,"Turtle Bay, Murray Hill, Gramercy",Kings County,Cycle,45.0,0.0
+1048,"Turtle Bay, Murray Hill, Gramercy",Kings County,Rail,110.0,0.0
+1049,"Turtle Bay, Murray Hill, Gramercy",Kings County,Subway,967.0,0.0
+1050,"Turtle Bay, Murray Hill, Gramercy",Kings County,Walk,115.0,0.0
+1051,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Bus,2652.0,0.0
+1052,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron","Car, truck, van, motorbike",540.0,0.0
+1053,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Cycle,110.0,0.0
+1054,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Rail,55.0,0.0
+1055,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Subway,8565.0,0.0
+1056,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Taxi,1950.0,0.0
+1057,"Turtle Bay, Murray Hill, Gramercy","Midtown, Flatiron",Walk,15481.0,0.0
+1058,"Turtle Bay, Murray Hill, Gramercy",New Jersey,Bus,195.0,0.0
+1059,"Turtle Bay, Murray Hill, Gramercy",New Jersey,"Car, truck, van, motorbike",580.0,0.0
+1060,"Turtle Bay, Murray Hill, Gramercy",New Jersey,Rail,55.0,0.0
+1061,"Turtle Bay, Murray Hill, Gramercy",New Jersey,Subway,584.0,0.0
+1062,"Turtle Bay, Murray Hill, Gramercy",Queens County,Bus,135.0,0.0
+1063,"Turtle Bay, Murray Hill, Gramercy",Queens County,"Car, truck, van, motorbike",494.0,0.0
+1064,"Turtle Bay, Murray Hill, Gramercy",Queens County,Rail,10.0,0.0
+1065,"Turtle Bay, Murray Hill, Gramercy",Queens County,Subway,888.0,0.0
+1066,"Turtle Bay, Murray Hill, Gramercy",Queens County,Taxi,45.0,0.0
+1067,"Turtle Bay, Murray Hill, Gramercy",Queens County,Walk,30.0,0.0
+1068,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial",Bus,1115.0,0.0
+1069,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",635.0,0.0
+1070,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial",Cycle,120.0,0.0
+1071,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial",Subway,5898.0,0.0
+1072,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial",Taxi,780.0,0.0
+1073,"Turtle Bay, Murray Hill, Gramercy","Tribeca, Battery Park, Financial",Walk,958.0,0.0
+1074,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy",Bus,1519.0,0.0
+1075,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",320.0,0.0
+1076,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy",Cycle,90.0,0.0
+1077,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy",Subway,1475.0,0.0
+1078,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy",Taxi,735.0,0.0
+1079,"Turtle Bay, Murray Hill, Gramercy","Turtle Bay, Murray Hill, Gramercy",Walk,8909.0,0.0
+1080,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,Bus,664.0,0.0
+1081,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,"Car, truck, van, motorbike",229.0,0.0
+1082,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,Rail,30.0,0.0
+1083,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,Subway,1115.0,0.0
+1084,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,Taxi,300.0,0.0
+1085,"Turtle Bay, Murray Hill, Gramercy",Upper East Side,Walk,877.0,0.0
+1086,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square",Bus,70.0,0.0
+1087,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square","Car, truck, van, motorbike",20.0,0.0
+1088,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square",Cycle,15.0,0.0
+1089,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square",Subway,380.0,0.0
+1090,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square",Taxi,70.0,0.0
+1091,"Turtle Bay, Murray Hill, Gramercy","Upper West Side, Lincoln Square",Walk,115.0,0.0
+1092,"Turtle Bay, Murray Hill, Gramercy","Washington heights, Inwood",Bus,40.0,0.0
+1093,"Turtle Bay, Murray Hill, Gramercy","Washington heights, Inwood",Cycle,15.0,0.0
+1094,"Turtle Bay, Murray Hill, Gramercy","Washington heights, Inwood",Subway,159.0,0.0
+1095,"Turtle Bay, Murray Hill, Gramercy","Washington heights, Inwood",Walk,80.0,0.0
+1096,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Bus,525.0,0.0
+1097,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho","Car, truck, van, motorbike",59.0,0.0
+1098,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Cycle,80.0,0.0
+1099,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Rail,35.0,0.0
+1100,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Subway,2190.0,0.0
+1101,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Taxi,165.0,0.0
+1102,"Turtle Bay, Murray Hill, Gramercy","West Village, Greenwich, Soho",Walk,1313.0,0.0
+1103,Upper East Side,Bronx County,Bus,234.0,0.0
+1104,Upper East Side,Bronx County,"Car, truck, van, motorbike",795.0,0.0
+1105,Upper East Side,Bronx County,Rail,10.0,0.0
+1106,Upper East Side,Bronx County,Subway,1237.0,0.0
+1107,Upper East Side,Bronx County,Taxi,15.0,0.0
+1108,Upper East Side,Bronx County,Walk,39.0,0.0
+1109,Upper East Side,Central Harlem,Bus,75.0,0.0
+1110,Upper East Side,Central Harlem,"Car, truck, van, motorbike",70.0,0.0
+1111,Upper East Side,Central Harlem,Rail,20.0,0.0
+1112,Upper East Side,Central Harlem,Subway,50.0,0.0
+1113,Upper East Side,Central Harlem,Taxi,35.0,0.0
+1114,Upper East Side,Central Harlem,Walk,25.0,0.0
+1115,Upper East Side,Central Park,Taxi,15.0,0.0
+1116,Upper East Side,"Clinton, Chelsea",Bus,588.0,0.0
+1117,Upper East Side,"Clinton, Chelsea","Car, truck, van, motorbike",200.0,0.0
+1118,Upper East Side,"Clinton, Chelsea",Cycle,45.0,0.0
+1119,Upper East Side,"Clinton, Chelsea",Rail,15.0,0.0
+1120,Upper East Side,"Clinton, Chelsea",Subway,2243.0,0.0
+1121,Upper East Side,"Clinton, Chelsea",Taxi,280.0,0.0
+1122,Upper East Side,"Clinton, Chelsea",Walk,395.0,0.0
+1123,Upper East Side,East Harlem,Bus,500.0,0.0
+1124,Upper East Side,East Harlem,"Car, truck, van, motorbike",155.0,0.0
+1125,Upper East Side,East Harlem,Rail,35.0,0.0
+1126,Upper East Side,East Harlem,Subway,314.0,0.0
+1127,Upper East Side,East Harlem,Taxi,105.0,0.0
+1128,Upper East Side,East Harlem,Walk,895.0,0.0
+1129,Upper East Side,"East Village, Noho, Chinatown",Bus,215.0,0.0
+1130,Upper East Side,"East Village, Noho, Chinatown","Car, truck, van, motorbike",130.0,0.0
+1131,Upper East Side,"East Village, Noho, Chinatown",Subway,1035.0,0.0
+1132,Upper East Side,"East Village, Noho, Chinatown",Taxi,245.0,0.0
+1133,Upper East Side,"East Village, Noho, Chinatown",Walk,379.0,0.0
+1134,Upper East Side,"Hamilton heights, Morningside heights",Bus,190.0,0.0
+1135,Upper East Side,"Hamilton heights, Morningside heights","Car, truck, van, motorbike",50.0,0.0
+1136,Upper East Side,"Hamilton heights, Morningside heights",Subway,195.0,0.0
+1137,Upper East Side,"Hamilton heights, Morningside heights",Taxi,40.0,0.0
+1138,Upper East Side,"Hamilton heights, Morningside heights",Walk,75.0,0.0
+1139,Upper East Side,Kings County,Bus,60.0,0.0
+1140,Upper East Side,Kings County,"Car, truck, van, motorbike",539.0,0.0
+1141,Upper East Side,Kings County,Cycle,15.0,0.0
+1142,Upper East Side,Kings County,Rail,10.0,0.0
+1143,Upper East Side,Kings County,Subway,1174.0,0.0
+1144,Upper East Side,Kings County,Taxi,35.0,0.0
+1145,Upper East Side,Kings County,Walk,130.0,0.0
+1146,Upper East Side,"Midtown, Flatiron",Bus,5557.0,0.0
+1147,Upper East Side,"Midtown, Flatiron","Car, truck, van, motorbike",1731.0,0.0
+1148,Upper East Side,"Midtown, Flatiron",Cycle,70.0,0.0
+1149,Upper East Side,"Midtown, Flatiron",Rail,200.0,0.0
+1150,Upper East Side,"Midtown, Flatiron",Subway,22672.0,0.0
+1151,Upper East Side,"Midtown, Flatiron",Taxi,3777.0,0.0
+1152,Upper East Side,"Midtown, Flatiron",Walk,5183.0,0.0
+1153,Upper East Side,New Jersey,Bus,35.0,0.0
+1154,Upper East Side,New Jersey,"Car, truck, van, motorbike",690.0,0.0
+1155,Upper East Side,New Jersey,Rail,175.0,0.0
+1156,Upper East Side,New Jersey,Subway,705.0,0.0
+1157,Upper East Side,New Jersey,Walk,15.0,0.0
+1158,Upper East Side,Queens County,Bus,175.0,0.0
+1159,Upper East Side,Queens County,"Car, truck, van, motorbike",1005.0,0.0
+1160,Upper East Side,Queens County,Cycle,10.0,0.0
+1161,Upper East Side,Queens County,Rail,40.0,0.0
+1162,Upper East Side,Queens County,Subway,1152.0,0.0
+1163,Upper East Side,Queens County,Walk,95.0,0.0
+1164,Upper East Side,"Tribeca, Battery Park, Financial",Bus,1220.0,0.0
+1165,Upper East Side,"Tribeca, Battery Park, Financial","Car, truck, van, motorbike",1319.0,0.0
+1166,Upper East Side,"Tribeca, Battery Park, Financial",Cycle,15.0,0.0
+1167,Upper East Side,"Tribeca, Battery Park, Financial",Rail,140.0,0.0
+1168,Upper East Side,"Tribeca, Battery Park, Financial",Subway,10817.0,0.0
+1169,Upper East Side,"Tribeca, Battery Park, Financial",Taxi,1200.0,0.0
+1170,Upper East Side,"Tribeca, Battery Park, Financial",Walk,964.0,0.0
+1171,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Bus,2804.0,0.0
+1172,Upper East Side,"Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",645.0,0.0
+1173,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Cycle,25.0,0.0
+1174,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Rail,20.0,0.0
+1175,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Subway,5957.0,0.0
+1176,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Taxi,900.0,0.0
+1177,Upper East Side,"Turtle Bay, Murray Hill, Gramercy",Walk,2000.0,0.0
+1178,Upper East Side,Upper East Side,Bus,1884.0,0.0
+1179,Upper East Side,Upper East Side,"Car, truck, van, motorbike",635.0,0.0
+1180,Upper East Side,Upper East Side,Cycle,95.0,0.0
+1181,Upper East Side,Upper East Side,Subway,2084.0,0.0
+1182,Upper East Side,Upper East Side,Taxi,884.0,0.0
+1183,Upper East Side,Upper East Side,Walk,12157.0,0.0
+1184,Upper East Side,"Upper West Side, Lincoln Square",Bus,674.0,0.0
+1185,Upper East Side,"Upper West Side, Lincoln Square","Car, truck, van, motorbike",49.0,0.0
+1186,Upper East Side,"Upper West Side, Lincoln Square",Subway,399.0,0.0
+1187,Upper East Side,"Upper West Side, Lincoln Square",Taxi,210.0,0.0
+1188,Upper East Side,"Upper West Side, Lincoln Square",Walk,369.0,0.0
+1189,Upper East Side,"Washington heights, Inwood",Bus,115.0,0.0
+1190,Upper East Side,"Washington heights, Inwood","Car, truck, van, motorbike",144.0,0.0
+1191,Upper East Side,"Washington heights, Inwood",Subway,289.0,0.0
+1192,Upper East Side,"Washington heights, Inwood",Taxi,35.0,0.0
+1193,Upper East Side,"Washington heights, Inwood",Walk,95.0,0.0
+1194,Upper East Side,"West Village, Greenwich, Soho",Bus,465.0,0.0
+1195,Upper East Side,"West Village, Greenwich, Soho","Car, truck, van, motorbike",295.0,0.0
+1196,Upper East Side,"West Village, Greenwich, Soho",Cycle,40.0,0.0
+1197,Upper East Side,"West Village, Greenwich, Soho",Rail,45.0,0.0
+1198,Upper East Side,"West Village, Greenwich, Soho",Subway,4261.0,0.0
+1199,Upper East Side,"West Village, Greenwich, Soho",Taxi,339.0,0.0
+1200,Upper East Side,"West Village, Greenwich, Soho",Walk,414.0,0.0
+1201,"Upper West Side, Lincoln Square",Bronx County,Bus,135.0,0.0
+1202,"Upper West Side, Lincoln Square",Bronx County,"Car, truck, van, motorbike",689.0,0.0
+1203,"Upper West Side, Lincoln Square",Bronx County,Rail,55.0,0.0
+1204,"Upper West Side, Lincoln Square",Bronx County,Subway,1363.0,0.0
+1205,"Upper West Side, Lincoln Square",Bronx County,Taxi,30.0,0.0
+1206,"Upper West Side, Lincoln Square",Central Harlem,Bus,25.0,0.0
+1207,"Upper West Side, Lincoln Square",Central Harlem,"Car, truck, van, motorbike",30.0,0.0
+1208,"Upper West Side, Lincoln Square",Central Harlem,Rail,40.0,0.0
+1209,"Upper West Side, Lincoln Square",Central Harlem,Subway,439.0,0.0
+1210,"Upper West Side, Lincoln Square",Central Harlem,Taxi,45.0,0.0
+1211,"Upper West Side, Lincoln Square",Central Harlem,Walk,75.0,0.0
+1212,"Upper West Side, Lincoln Square","Clinton, Chelsea",Bus,465.0,0.0
+1213,"Upper West Side, Lincoln Square","Clinton, Chelsea","Car, truck, van, motorbike",295.0,0.0
+1214,"Upper West Side, Lincoln Square","Clinton, Chelsea",Cycle,70.0,0.0
+1215,"Upper West Side, Lincoln Square","Clinton, Chelsea",Rail,40.0,0.0
+1216,"Upper West Side, Lincoln Square","Clinton, Chelsea",Subway,4334.0,0.0
+1217,"Upper West Side, Lincoln Square","Clinton, Chelsea",Taxi,370.0,0.0
+1218,"Upper West Side, Lincoln Square","Clinton, Chelsea",Walk,1055.0,0.0
+1219,"Upper West Side, Lincoln Square",East Harlem,Bus,515.0,0.0
+1220,"Upper West Side, Lincoln Square",East Harlem,"Car, truck, van, motorbike",130.0,0.0
+1221,"Upper West Side, Lincoln Square",East Harlem,Cycle,95.0,0.0
+1222,"Upper West Side, Lincoln Square",East Harlem,Rail,15.0,0.0
+1223,"Upper West Side, Lincoln Square",East Harlem,Subway,280.0,0.0
+1224,"Upper West Side, Lincoln Square",East Harlem,Taxi,90.0,0.0
+1225,"Upper West Side, Lincoln Square",East Harlem,Walk,230.0,0.0
+1226,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown",Bus,210.0,0.0
+1227,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown","Car, truck, van, motorbike",40.0,0.0
+1228,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown",Cycle,10.0,0.0
+1229,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown",Subway,794.0,0.0
+1230,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown",Taxi,50.0,0.0
+1231,"Upper West Side, Lincoln Square","East Village, Noho, Chinatown",Walk,169.0,0.0
+1232,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Bus,325.0,0.0
+1233,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights","Car, truck, van, motorbike",10.0,0.0
+1234,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Cycle,35.0,0.0
+1235,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Rail,15.0,0.0
+1236,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Subway,885.0,0.0
+1237,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Taxi,40.0,0.0
+1238,"Upper West Side, Lincoln Square","Hamilton heights, Morningside heights",Walk,890.0,0.0
+1239,"Upper West Side, Lincoln Square",Kings County,Bus,15.0,0.0
+1240,"Upper West Side, Lincoln Square",Kings County,"Car, truck, van, motorbike",423.0,0.0
+1241,"Upper West Side, Lincoln Square",Kings County,Cycle,110.0,0.0
+1242,"Upper West Side, Lincoln Square",Kings County,Rail,20.0,0.0
+1243,"Upper West Side, Lincoln Square",Kings County,Subway,1919.0,0.0
+1244,"Upper West Side, Lincoln Square",Kings County,Taxi,30.0,0.0
+1245,"Upper West Side, Lincoln Square",Kings County,Walk,30.0,0.0
+1246,"Upper West Side, Lincoln Square","Midtown, Flatiron",Bus,2274.0,0.0
+1247,"Upper West Side, Lincoln Square","Midtown, Flatiron","Car, truck, van, motorbike",835.0,0.0
+1248,"Upper West Side, Lincoln Square","Midtown, Flatiron",Cycle,310.0,0.0
+1249,"Upper West Side, Lincoln Square","Midtown, Flatiron",Rail,275.0,0.0
+1250,"Upper West Side, Lincoln Square","Midtown, Flatiron",Subway,26153.0,0.0
+1251,"Upper West Side, Lincoln Square","Midtown, Flatiron",Taxi,2147.0,0.0
+1252,"Upper West Side, Lincoln Square","Midtown, Flatiron",Walk,3050.0,0.0
+1253,"Upper West Side, Lincoln Square",New Jersey,Bus,435.0,0.0
+1254,"Upper West Side, Lincoln Square",New Jersey,"Car, truck, van, motorbike",1019.0,0.0
+1255,"Upper West Side, Lincoln Square",New Jersey,Rail,55.0,0.0
+1256,"Upper West Side, Lincoln Square",New Jersey,Subway,589.0,0.0
+1257,"Upper West Side, Lincoln Square",New Jersey,Walk,10.0,0.0
+1258,"Upper West Side, Lincoln Square",Queens County,Bus,120.0,0.0
+1259,"Upper West Side, Lincoln Square",Queens County,"Car, truck, van, motorbike",665.0,0.0
+1260,"Upper West Side, Lincoln Square",Queens County,Cycle,10.0,0.0
+1261,"Upper West Side, Lincoln Square",Queens County,Rail,15.0,0.0
+1262,"Upper West Side, Lincoln Square",Queens County,Subway,1419.0,0.0
+1263,"Upper West Side, Lincoln Square",Queens County,Walk,70.0,0.0
+1264,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Bus,229.0,0.0
+1265,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",435.0,0.0
+1266,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Cycle,170.0,0.0
+1267,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Rail,15.0,0.0
+1268,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Subway,9619.0,0.0
+1269,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Taxi,220.0,0.0
+1270,"Upper West Side, Lincoln Square","Tribeca, Battery Park, Financial",Walk,365.0,0.0
+1271,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Bus,600.0,0.0
+1272,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",235.0,0.0
+1273,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Cycle,80.0,0.0
+1274,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Rail,40.0,0.0
+1275,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Subway,5055.0,0.0
+1276,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Taxi,395.0,0.0
+1277,"Upper West Side, Lincoln Square","Turtle Bay, Murray Hill, Gramercy",Walk,284.0,0.0
+1278,"Upper West Side, Lincoln Square",Upper East Side,Bus,2079.0,0.0
+1279,"Upper West Side, Lincoln Square",Upper East Side,"Car, truck, van, motorbike",290.0,0.0
+1280,"Upper West Side, Lincoln Square",Upper East Side,Cycle,145.0,0.0
+1281,"Upper West Side, Lincoln Square",Upper East Side,Rail,15.0,0.0
+1282,"Upper West Side, Lincoln Square",Upper East Side,Subway,1245.0,0.0
+1283,"Upper West Side, Lincoln Square",Upper East Side,Taxi,514.0,0.0
+1284,"Upper West Side, Lincoln Square",Upper East Side,Walk,910.0,0.0
+1285,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Bus,755.0,0.0
+1286,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square","Car, truck, van, motorbike",420.0,0.0
+1287,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Cycle,230.0,0.0
+1288,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Rail,25.0,0.0
+1289,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Subway,2309.0,0.0
+1290,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Taxi,175.0,0.0
+1291,"Upper West Side, Lincoln Square","Upper West Side, Lincoln Square",Walk,6301.0,0.0
+1292,"Upper West Side, Lincoln Square","Washington heights, Inwood",Bus,40.0,0.0
+1293,"Upper West Side, Lincoln Square","Washington heights, Inwood","Car, truck, van, motorbike",125.0,0.0
+1294,"Upper West Side, Lincoln Square","Washington heights, Inwood",Cycle,20.0,0.0
+1295,"Upper West Side, Lincoln Square","Washington heights, Inwood",Rail,20.0,0.0
+1296,"Upper West Side, Lincoln Square","Washington heights, Inwood",Subway,2175.0,0.0
+1297,"Upper West Side, Lincoln Square","Washington heights, Inwood",Taxi,45.0,0.0
+1298,"Upper West Side, Lincoln Square","Washington heights, Inwood",Walk,75.0,0.0
+1299,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Bus,99.0,0.0
+1300,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho","Car, truck, van, motorbike",209.0,0.0
+1301,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Cycle,120.0,0.0
+1302,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Rail,30.0,0.0
+1303,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Subway,4888.0,0.0
+1304,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Taxi,115.0,0.0
+1305,"Upper West Side, Lincoln Square","West Village, Greenwich, Soho",Walk,270.0,0.0
+1306,"Washington heights, Inwood",Bronx County,Bus,3049.0,0.0
+1307,"Washington heights, Inwood",Bronx County,"Car, truck, van, motorbike",2460.0,0.0
+1308,"Washington heights, Inwood",Bronx County,Cycle,45.0,0.0
+1309,"Washington heights, Inwood",Bronx County,Rail,140.0,0.0
+1310,"Washington heights, Inwood",Bronx County,Subway,2216.0,0.0
+1311,"Washington heights, Inwood",Bronx County,Taxi,145.0,0.0
+1312,"Washington heights, Inwood",Bronx County,Walk,184.0,0.0
+1313,"Washington heights, Inwood",Central Harlem,Bus,310.0,0.0
+1314,"Washington heights, Inwood",Central Harlem,"Car, truck, van, motorbike",194.0,0.0
+1315,"Washington heights, Inwood",Central Harlem,Rail,15.0,0.0
+1316,"Washington heights, Inwood",Central Harlem,Subway,594.0,0.0
+1317,"Washington heights, Inwood",Central Harlem,Taxi,40.0,0.0
+1318,"Washington heights, Inwood",Central Harlem,Walk,90.0,0.0
+1319,"Washington heights, Inwood",Central Park,Subway,10.0,0.0
+1320,"Washington heights, Inwood","Clinton, Chelsea",Bus,200.0,0.0
+1321,"Washington heights, Inwood","Clinton, Chelsea","Car, truck, van, motorbike",307.0,0.0
+1322,"Washington heights, Inwood","Clinton, Chelsea",Cycle,40.0,0.0
+1323,"Washington heights, Inwood","Clinton, Chelsea",Rail,130.0,0.0
+1324,"Washington heights, Inwood","Clinton, Chelsea",Subway,3708.0,0.0
+1325,"Washington heights, Inwood","Clinton, Chelsea",Taxi,80.0,0.0
+1326,"Washington heights, Inwood","Clinton, Chelsea",Walk,120.0,0.0
+1327,"Washington heights, Inwood",East Harlem,Bus,589.0,0.0
+1328,"Washington heights, Inwood",East Harlem,"Car, truck, van, motorbike",215.0,0.0
+1329,"Washington heights, Inwood",East Harlem,Cycle,4.0,0.0
+1330,"Washington heights, Inwood",East Harlem,Rail,15.0,0.0
+1331,"Washington heights, Inwood",East Harlem,Subway,808.0,0.0
+1332,"Washington heights, Inwood",East Harlem,Taxi,45.0,0.0
+1333,"Washington heights, Inwood",East Harlem,Walk,75.0,0.0
+1334,"Washington heights, Inwood","East Village, Noho, Chinatown",Bus,150.0,0.0
+1335,"Washington heights, Inwood","East Village, Noho, Chinatown","Car, truck, van, motorbike",45.0,0.0
+1336,"Washington heights, Inwood","East Village, Noho, Chinatown",Rail,69.0,0.0
+1337,"Washington heights, Inwood","East Village, Noho, Chinatown",Subway,1109.0,0.0
+1338,"Washington heights, Inwood","East Village, Noho, Chinatown",Taxi,25.0,0.0
+1339,"Washington heights, Inwood","East Village, Noho, Chinatown",Walk,99.0,0.0
+1340,"Washington heights, Inwood","Hamilton heights, Morningside heights",Bus,250.0,0.0
+1341,"Washington heights, Inwood","Hamilton heights, Morningside heights","Car, truck, van, motorbike",205.0,0.0
+1342,"Washington heights, Inwood","Hamilton heights, Morningside heights",Cycle,15.0,0.0
+1343,"Washington heights, Inwood","Hamilton heights, Morningside heights",Subway,1482.0,0.0
+1344,"Washington heights, Inwood","Hamilton heights, Morningside heights",Taxi,30.0,0.0
+1345,"Washington heights, Inwood","Hamilton heights, Morningside heights",Walk,214.0,0.0
+1346,"Washington heights, Inwood",Kings County,Bus,45.0,0.0
+1347,"Washington heights, Inwood",Kings County,"Car, truck, van, motorbike",410.0,0.0
+1348,"Washington heights, Inwood",Kings County,Rail,120.0,0.0
+1349,"Washington heights, Inwood",Kings County,Subway,1891.0,0.0
+1350,"Washington heights, Inwood",Kings County,Walk,55.0,0.0
+1351,"Washington heights, Inwood","Midtown, Flatiron",Bus,590.0,0.0
+1352,"Washington heights, Inwood","Midtown, Flatiron","Car, truck, van, motorbike",499.0,0.0
+1353,"Washington heights, Inwood","Midtown, Flatiron",Cycle,49.0,0.0
+1354,"Washington heights, Inwood","Midtown, Flatiron",Rail,595.0,0.0
+1355,"Washington heights, Inwood","Midtown, Flatiron",Subway,12840.0,0.0
+1356,"Washington heights, Inwood","Midtown, Flatiron",Taxi,15.0,0.0
+1357,"Washington heights, Inwood","Midtown, Flatiron",Walk,609.0,0.0
+1358,"Washington heights, Inwood",New Jersey,Bus,843.0,0.0
+1359,"Washington heights, Inwood",New Jersey,"Car, truck, van, motorbike",1679.0,0.0
+1360,"Washington heights, Inwood",New Jersey,Cycle,10.0,0.0
+1361,"Washington heights, Inwood",New Jersey,Subway,298.0,0.0
+1362,"Washington heights, Inwood",New Jersey,Walk,65.0,0.0
+1363,"Washington heights, Inwood",Queens County,Bus,155.0,0.0
+1364,"Washington heights, Inwood",Queens County,"Car, truck, van, motorbike",850.0,0.0
+1365,"Washington heights, Inwood",Queens County,Rail,50.0,0.0
+1366,"Washington heights, Inwood",Queens County,Subway,1745.0,0.0
+1367,"Washington heights, Inwood",Queens County,Taxi,15.0,0.0
+1368,"Washington heights, Inwood",Queens County,Walk,30.0,0.0
+1369,"Washington heights, Inwood","Tribeca, Battery Park, Financial",Bus,674.0,0.0
+1370,"Washington heights, Inwood","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",444.0,0.0
+1371,"Washington heights, Inwood","Tribeca, Battery Park, Financial",Cycle,20.0,0.0
+1372,"Washington heights, Inwood","Tribeca, Battery Park, Financial",Rail,210.0,0.0
+1373,"Washington heights, Inwood","Tribeca, Battery Park, Financial",Subway,5201.0,0.0
+1374,"Washington heights, Inwood","Tribeca, Battery Park, Financial",Walk,513.0,0.0
+1375,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Bus,313.0,0.0
+1376,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",290.0,0.0
+1377,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Cycle,70.0,0.0
+1378,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Rail,210.0,0.0
+1379,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Subway,2957.0,0.0
+1380,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Taxi,35.0,0.0
+1381,"Washington heights, Inwood","Turtle Bay, Murray Hill, Gramercy",Walk,225.0,0.0
+1382,"Washington heights, Inwood",Upper East Side,Bus,449.0,0.0
+1383,"Washington heights, Inwood",Upper East Side,"Car, truck, van, motorbike",319.0,0.0
+1384,"Washington heights, Inwood",Upper East Side,Cycle,20.0,0.0
+1385,"Washington heights, Inwood",Upper East Side,Rail,79.0,0.0
+1386,"Washington heights, Inwood",Upper East Side,Subway,1990.0,0.0
+1387,"Washington heights, Inwood",Upper East Side,Taxi,50.0,0.0
+1388,"Washington heights, Inwood",Upper East Side,Walk,95.0,0.0
+1389,"Washington heights, Inwood","Upper West Side, Lincoln Square",Bus,325.0,0.0
+1390,"Washington heights, Inwood","Upper West Side, Lincoln Square","Car, truck, van, motorbike",324.0,0.0
+1391,"Washington heights, Inwood","Upper West Side, Lincoln Square",Cycle,45.0,0.0
+1392,"Washington heights, Inwood","Upper West Side, Lincoln Square",Rail,90.0,0.0
+1393,"Washington heights, Inwood","Upper West Side, Lincoln Square",Subway,2737.0,0.0
+1394,"Washington heights, Inwood","Upper West Side, Lincoln Square",Walk,94.0,0.0
+1395,"Washington heights, Inwood","Washington heights, Inwood",Bus,1449.0,0.0
+1396,"Washington heights, Inwood","Washington heights, Inwood","Car, truck, van, motorbike",1350.0,0.0
+1397,"Washington heights, Inwood","Washington heights, Inwood",Cycle,290.0,0.0
+1398,"Washington heights, Inwood","Washington heights, Inwood",Rail,89.0,0.0
+1399,"Washington heights, Inwood","Washington heights, Inwood",Subway,2469.0,0.0
+1400,"Washington heights, Inwood","Washington heights, Inwood",Taxi,229.0,0.0
+1401,"Washington heights, Inwood","Washington heights, Inwood",Walk,7720.0,0.0
+1402,"Washington heights, Inwood","West Village, Greenwich, Soho",Bus,164.0,0.0
+1403,"Washington heights, Inwood","West Village, Greenwich, Soho","Car, truck, van, motorbike",310.0,0.0
+1404,"Washington heights, Inwood","West Village, Greenwich, Soho",Rail,135.0,0.0
+1405,"Washington heights, Inwood","West Village, Greenwich, Soho",Subway,3028.0,0.0
+1406,"Washington heights, Inwood","West Village, Greenwich, Soho",Taxi,15.0,0.0
+1407,"Washington heights, Inwood","West Village, Greenwich, Soho",Walk,159.0,0.0
+1408,"West Village, Greenwich, Soho",Bronx County,Bus,10.0,0.0
+1409,"West Village, Greenwich, Soho",Bronx County,"Car, truck, van, motorbike",115.0,0.0
+1410,"West Village, Greenwich, Soho",Bronx County,Rail,40.0,0.0
+1411,"West Village, Greenwich, Soho",Bronx County,Subway,260.0,0.0
+1412,"West Village, Greenwich, Soho",Bronx County,Walk,20.0,0.0
+1413,"West Village, Greenwich, Soho",Central Harlem,"Car, truck, van, motorbike",35.0,0.0
+1414,"West Village, Greenwich, Soho",Central Harlem,Subway,75.0,0.0
+1415,"West Village, Greenwich, Soho",Central Harlem,Walk,45.0,0.0
+1416,"West Village, Greenwich, Soho","Clinton, Chelsea",Bus,110.0,0.0
+1417,"West Village, Greenwich, Soho","Clinton, Chelsea","Car, truck, van, motorbike",80.0,0.0
+1418,"West Village, Greenwich, Soho","Clinton, Chelsea",Cycle,65.0,0.0
+1419,"West Village, Greenwich, Soho","Clinton, Chelsea",Rail,24.0,0.0
+1420,"West Village, Greenwich, Soho","Clinton, Chelsea",Subway,1402.0,0.0
+1421,"West Village, Greenwich, Soho","Clinton, Chelsea",Taxi,170.0,0.0
+1422,"West Village, Greenwich, Soho","Clinton, Chelsea",Walk,855.0,0.0
+1423,"West Village, Greenwich, Soho",East Harlem,Bus,10.0,0.0
+1424,"West Village, Greenwich, Soho",East Harlem,"Car, truck, van, motorbike",75.0,0.0
+1425,"West Village, Greenwich, Soho",East Harlem,Subway,150.0,0.0
+1426,"West Village, Greenwich, Soho",East Harlem,Walk,40.0,0.0
+1427,"West Village, Greenwich, Soho","East Village, Noho, Chinatown",Bus,80.0,0.0
+1428,"West Village, Greenwich, Soho","East Village, Noho, Chinatown","Car, truck, van, motorbike",104.0,0.0
+1429,"West Village, Greenwich, Soho","East Village, Noho, Chinatown",Cycle,60.0,0.0
+1430,"West Village, Greenwich, Soho","East Village, Noho, Chinatown",Subway,650.0,0.0
+1431,"West Village, Greenwich, Soho","East Village, Noho, Chinatown",Taxi,25.0,0.0
+1432,"West Village, Greenwich, Soho","East Village, Noho, Chinatown",Walk,455.0,0.0
+1433,"West Village, Greenwich, Soho","Hamilton heights, Morningside heights",Bus,30.0,0.0
+1434,"West Village, Greenwich, Soho","Hamilton heights, Morningside heights","Car, truck, van, motorbike",30.0,0.0
+1435,"West Village, Greenwich, Soho","Hamilton heights, Morningside heights",Subway,285.0,0.0
+1436,"West Village, Greenwich, Soho","Hamilton heights, Morningside heights",Walk,155.0,0.0
+1437,"West Village, Greenwich, Soho",Kings County,Bus,40.0,0.0
+1438,"West Village, Greenwich, Soho",Kings County,"Car, truck, van, motorbike",265.0,0.0
+1439,"West Village, Greenwich, Soho",Kings County,Cycle,25.0,0.0
+1440,"West Village, Greenwich, Soho",Kings County,Subway,1039.0,0.0
+1441,"West Village, Greenwich, Soho",Kings County,Walk,73.0,0.0
+1442,"West Village, Greenwich, Soho","Midtown, Flatiron",Bus,350.0,0.0
+1443,"West Village, Greenwich, Soho","Midtown, Flatiron","Car, truck, van, motorbike",489.0,0.0
+1444,"West Village, Greenwich, Soho","Midtown, Flatiron",Cycle,269.0,0.0
+1445,"West Village, Greenwich, Soho","Midtown, Flatiron",Rail,65.0,0.0
+1446,"West Village, Greenwich, Soho","Midtown, Flatiron",Subway,11676.0,0.0
+1447,"West Village, Greenwich, Soho","Midtown, Flatiron",Taxi,1254.0,0.0
+1448,"West Village, Greenwich, Soho","Midtown, Flatiron",Walk,2231.0,0.0
+1449,"West Village, Greenwich, Soho",New Jersey,Bus,75.0,0.0
+1450,"West Village, Greenwich, Soho",New Jersey,"Car, truck, van, motorbike",280.0,0.0
+1451,"West Village, Greenwich, Soho",New Jersey,Rail,135.0,0.0
+1452,"West Village, Greenwich, Soho",New Jersey,Subway,530.0,0.0
+1453,"West Village, Greenwich, Soho",New Jersey,Taxi,10.0,0.0
+1454,"West Village, Greenwich, Soho",New Jersey,Walk,19.0,0.0
+1455,"West Village, Greenwich, Soho",Queens County,Bus,55.0,0.0
+1456,"West Village, Greenwich, Soho",Queens County,"Car, truck, van, motorbike",240.0,0.0
+1457,"West Village, Greenwich, Soho",Queens County,Rail,20.0,0.0
+1458,"West Village, Greenwich, Soho",Queens County,Subway,573.0,0.0
+1459,"West Village, Greenwich, Soho",Queens County,Walk,35.0,0.0
+1460,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial",Bus,160.0,0.0
+1461,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial","Car, truck, van, motorbike",95.0,0.0
+1462,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial",Cycle,139.0,0.0
+1463,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial",Subway,3414.0,0.0
+1464,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial",Taxi,488.0,0.0
+1465,"West Village, Greenwich, Soho","Tribeca, Battery Park, Financial",Walk,1577.0,0.0
+1466,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Bus,175.0,0.0
+1467,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy","Car, truck, van, motorbike",129.0,0.0
+1468,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Cycle,140.0,0.0
+1469,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Rail,35.0,0.0
+1470,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Subway,2673.0,0.0
+1471,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Taxi,155.0,0.0
+1472,"West Village, Greenwich, Soho","Turtle Bay, Murray Hill, Gramercy",Walk,380.0,0.0
+1473,"West Village, Greenwich, Soho",Upper East Side,Bus,20.0,0.0
+1474,"West Village, Greenwich, Soho",Upper East Side,"Car, truck, van, motorbike",120.0,0.0
+1475,"West Village, Greenwich, Soho",Upper East Side,Cycle,55.0,0.0
+1476,"West Village, Greenwich, Soho",Upper East Side,Rail,25.0,0.0
+1477,"West Village, Greenwich, Soho",Upper East Side,Subway,1224.0,0.0
+1478,"West Village, Greenwich, Soho",Upper East Side,Walk,50.0,0.0
+1479,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square",Bus,10.0,0.0
+1480,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square","Car, truck, van, motorbike",74.0,0.0
+1481,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square",Cycle,4.0,0.0
+1482,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square",Subway,564.0,0.0
+1483,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square",Taxi,35.0,0.0
+1484,"West Village, Greenwich, Soho","Upper West Side, Lincoln Square",Walk,45.0,0.0
+1485,"West Village, Greenwich, Soho","Washington heights, Inwood",Bus,15.0,0.0
+1486,"West Village, Greenwich, Soho","Washington heights, Inwood",Subway,175.0,0.0
+1487,"West Village, Greenwich, Soho","Washington heights, Inwood",Walk,130.0,0.0
+1488,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Bus,120.0,0.0
+1489,"West Village, Greenwich, Soho","West Village, Greenwich, Soho","Car, truck, van, motorbike",353.0,0.0
+1490,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Cycle,130.0,0.0
+1491,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Rail,4.0,0.0
+1492,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Subway,1983.0,0.0
+1493,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Taxi,330.0,0.0
+1494,"West Village, Greenwich, Soho","West Village, Greenwich, Soho",Walk,7976.0,0.0

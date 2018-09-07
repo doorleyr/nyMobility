@@ -35,17 +35,17 @@ def get_location(longitude, latitude, regions_json, name):
 #'home':['Worked at home']}
 
 #get communties geojson
-communties=json.load(open('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/spatialData/communityDistrictsManhattanOnly.geojson'))
-ntas=json.load(open('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/spatialData/Neighborhood Tabulation Areas.geojson'))
+communties=json.load(open('./spatialData/communityDistrictsManhattanOnly.geojson'))
+ntas=json.load(open('./spatialData/Neighborhood Tabulation Areas.geojson'))
 #get OD data
-commuting=pd.read_csv('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/od_data/tract2TractCommuting_NY.csv', skiprows=2)
+commuting=pd.read_csv('./od_data/tract2TractCommuting_NY.csv', skiprows=2)
 #commuting['RESIDENCE']=commuting.apply(lambda row: str(row['RESIDENCE']).split(',')[0], axis=1)
 #commuting['WORKPLACE']=commuting.apply(lambda row: str(row['WORKPLACE']).split(',')[0], axis=1)
 commuting=commuting[~commuting['Workers 16 and Over'].isnull()]
 commuting['Workers 16 and Over']=commuting.apply(lambda row: float(str(row['Workers 16 and Over']).replace(',',"")), axis=1)# in case there are commas for separating 000s
 #get tracts geojson
 #tracts=json.load(open('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/spatialData/census2010TractsOfficial.geojson'))
-tracts=json.load(open('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/spatialData/2010 Census Tracts.geojson'))
+tracts=json.load(open('./spatialData/2010 Census Tracts.geojson'))
 tractsManhattan=tracts.copy()
 #tractsManhattan['features']=[f for f in tracts['features'] if f['properties']['COUNTY']=='061']
 tractsManhattan['features']=[f for f in tracts['features'] if f['properties']['boro_name']=='Manhattan']
@@ -94,6 +94,8 @@ commuting['dNhood']=commuting.apply(lambda row: tracts2Nhoods[row['WORKPLACE']],
 
 odComms=pd.crosstab(commuting['oComm'], commuting['dComm'], commuting['Workers 16 and Over'], aggfunc="sum").fillna(0)
 odNHoods=pd.crosstab(commuting['oNhood'], commuting['dNhood'], commuting['Workers 16 and Over'], aggfunc="sum").fillna(0)
+odComms.to_csv('./results/od_communityDistricts.csv')
+odNHoods.to_csv('./results/od_neighbourhoods.csv')
 
-odCommsMode=commuting.groupby(['oComm', 'dComm', 'Means of Transportation 18']).
+#odCommsMode=commuting.groupby(['oComm', 'dComm', 'Means of Transportation 18']).
       

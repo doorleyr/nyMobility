@@ -19,24 +19,11 @@ def get_location(longitude, latitude, regions_json, name):
             return record['properties'][name]
     return 'None'
 
-#cpttModeDict={'drive':['Car, truck, or van -- Drove alone',
-#             'Car, truck, or van -- In a 2-person carpool',
-#            'Car, truck, or van -- In a 3-person carpool',
-#            'Car, truck, or van -- In a 4-person carpool',
-#            'Car, truck, or van -- In a 5-or-6-person carpool',
-#            'Car, truck, or van -- In a 7-or-more-person carpool',
-#            'Motorcycle'],
-#'bus': ['Bus or trolley bus'],
-#'subway': ['Subway or elevated'],
-#'rail': ['Railroad'],
-#'cycle': ['Bicycle'],
-#'taxi': ['Taxicab'],
-#'walk':['Walked'],
-#'home':['Worked at home']}
-
 #get communties geojson
-communties=json.load(open('./spatialData/communityDistrictsManhattanOnly.geojson'))
+communities=json.load(open('./spatialData/communityDistrictsManhattanOnly.geojson'))
 ntas=json.load(open('./spatialData/Neighborhood Tabulation Areas.geojson'))
+nycCounties=json.load(open('./spatialData/nycCounties.geojson'))
+nj=json.load(open('./spatialData/newJersey.geojson'))
 #get OD data
 commuting=pd.read_csv('./od_data/tract2TractCommuting_NY.csv', skiprows=2)
 #commuting['RESIDENCE']=commuting.apply(lambda row: str(row['RESIDENCE']).split(',')[0], axis=1)
@@ -44,7 +31,6 @@ commuting=pd.read_csv('./od_data/tract2TractCommuting_NY.csv', skiprows=2)
 commuting=commuting[~commuting['Workers 16 and Over'].isnull()]
 commuting['Workers 16 and Over']=commuting.apply(lambda row: float(str(row['Workers 16 and Over']).replace(',',"")), axis=1)# in case there are commas for separating 000s
 #get tracts geojson
-#tracts=json.load(open('/Volumes/GoogleDrive/My Drive/Fulbright/CooperH/spatialData/census2010TractsOfficial.geojson'))
 tracts=json.load(open('./spatialData/2010 Census Tracts.geojson'))
 tractsManhattan=tracts.copy()
 #tractsManhattan['features']=[f for f in tracts['features'] if f['properties']['COUNTY']=='061']
@@ -74,7 +60,7 @@ for t in allTracts:
         tractInd=tractNamesGeo.index(tractNum)
 #        tracts2Nhoods[t]=tractsManhattan['features'][tractInd]['properties']['ntaname']
         tractCentroid=shape(tractsManhattan['features'][tractInd]['geometry']).centroid
-        comm=get_location(tractCentroid.x, tractCentroid.y, communties, 'Name')
+        comm=get_location(tractCentroid.x, tractCentroid.y, communities, 'Name')
         nHood=get_location(tractCentroid.x, tractCentroid.y, ntas, 'ntaname')
         if comm=='None':
             print(t)
@@ -101,4 +87,13 @@ odCommsMode=commuting.groupby(by=['oComm', 'dComm', 'Means of Transportation 18'
 odNhoodsMode=commuting.groupby(by=['oNhood', 'dNhood', 'Means of Transportation 18'], as_index=False).sum()
 odCommsMode.to_csv('./results/od_communityDistricts_byMode.csv')
 odNhoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
-      
+
+#create a geojson including all the zones
+geoOut=nycCounties.copy()
+geoOut['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odComms.columns.values]
+for c in communities['features']:
+    if c['properties']['Name'] in odComms.columns.values:
+        geoOut['features'].extend([c])
+geoOut['features'].extend([nj['features'][0]])
+
+json.dump(geoOut, open('./results/allZones.geojson', 'w'))

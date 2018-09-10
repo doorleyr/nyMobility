@@ -91,22 +91,22 @@ geoOutComms=nycCounties.copy()
 geoOutComms['features']=[]
 for g in nycCounties['features']:
     if g['properties']['NAME']+' County' in odComms.columns.values:
-        geoOutComms['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry']})
+        geoOutComms['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry'], 'Type':'Feature'})
 for c in communities['features']:
     if c['properties']['Name'] in odComms.columns.values:
-        geoOutComms['features'].append({'properties':{'Name': c['properties']['Name'], 'type':'Community'}, 'geometry': c['geometry']})
-geoOutComms['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry']})
+        geoOutComms['features'].append({'properties':{'Name': c['properties']['Name'], 'type':'Community'}, 'geometry': c['geometry'], 'Type':'Feature'})
+geoOutComms['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry'], 'Type':'Feature'})
 
 #create a geojson including all the zones for the nta aggregation
 geoOutNHoods=nycCounties.copy()
 geoOutNHoods['features']=[]
 for g in nycCounties['features']:
     if g['properties']['NAME']+' County' in odNHoods.columns.values:
-        geoOutNHoods['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry']})
+        geoOutNHoods['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry'], 'Type':'Feature'})
 for c in ntas['features']:
     if c['properties']['ntaname'] in odNHoods.columns.values:
-        geoOutNHoods['features'].append({'properties':{'Name': c['properties']['ntaname'], 'type':'Neighbourhood'}, 'geometry': c['geometry']})
-geoOutNHoods['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry']})
+        geoOutNHoods['features'].append({'properties':{'Name': c['properties']['ntaname'], 'type':'Neighbourhood'}, 'geometry': c['geometry'], 'Type':'Feature'})
+geoOutNHoods['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry'], 'Type':'Feature'})
 
 #geoOutNHoods=nycCounties.copy()
 #geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odNHoods.columns.values]

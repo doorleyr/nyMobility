@@ -84,16 +84,25 @@ odComms.to_csv('./results/od_communityDistricts.csv')
 odNHoods.to_csv('./results/od_neighbourhoods.csv')
 
 odCommsMode=commuting.groupby(by=['oComm', 'dComm', 'Means of Transportation 18'], as_index=False).sum()
-odNhoodsMode=commuting.groupby(by=['oNhood', 'dNhood', 'Means of Transportation 18'], as_index=False).sum()
+odNHoodsMode=commuting.groupby(by=['oNhood', 'dNhood', 'Means of Transportation 18'], as_index=False).sum()
 odCommsMode.to_csv('./results/od_communityDistricts_byMode.csv')
-odNhoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
+odNHoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
 
-#create a geojson including all the zones
-geoOut=nycCounties.copy()
-geoOut['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odComms.columns.values]
+#create a geojson including all the zones for the community district aggregation
+geoOutComms=nycCounties.copy()
+geoOutComms['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odComms.columns.values]
 for c in communities['features']:
     if c['properties']['Name'] in odComms.columns.values:
-        geoOut['features'].extend([c])
-geoOut['features'].extend([nj['features'][0]])
+        geoOutComms['features'].extend([c])
+geoOutComms['features'].extend([nj['features'][0]])
 
-json.dump(geoOut, open('./results/allZones.geojson', 'w'))
+#create a geojson including all the zones for the nta aggregation
+geoOutNHoods=nycCounties.copy()
+geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odNHoods.columns.values]
+for c in ntas['features']:
+    if c['properties']['ntaname'] in odNHoods.columns.values:
+        geoOutNHoods['features'].extend([c])
+geoOutNHoods['features'].extend([nj['features'][0]])
+
+json.dump(geoOutComms, open('./results/allZonesComms.geojson', 'w'))
+json.dump(geoOutNHoods, open('./results/allZonesNHoods.geojson', 'w'))

@@ -85,24 +85,37 @@ odNHoods.to_csv('./results/od_neighbourhoods.csv')
 
 odCommsMode=commuting.groupby(by=['oComm', 'dComm', 'Means of Transportation 18'], as_index=False).sum()
 odNHoodsMode=commuting.groupby(by=['oNhood', 'dNhood', 'Means of Transportation 18'], as_index=False).sum()
-odCommsMode.to_csv('./results/od_communityDistricts_byMode.csv')
-odNHoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
 
 #create a geojson including all the zones for the community district aggregation
 geoOutComms=nycCounties.copy()
-geoOutComms['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odComms.columns.values]
+geoOutComms['features']=[]
+for g in nycCounties['features']:
+    if g['properties']['NAME']+' County' in odComms.columns.values:
+        geoOutComms['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry']})
 for c in communities['features']:
     if c['properties']['Name'] in odComms.columns.values:
-        geoOutComms['features'].extend([c])
-geoOutComms['features'].extend([nj['features'][0]])
+        geoOutComms['features'].append({'properties':{'Name': c['properties']['Name'], 'type':'Community'}, 'geometry': c['geometry']})
+geoOutComms['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry']})
 
 #create a geojson including all the zones for the nta aggregation
 geoOutNHoods=nycCounties.copy()
-geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odNHoods.columns.values]
+geoOutNHoods['features']=[]
+for g in nycCounties['features']:
+    if g['properties']['NAME']+' County' in odNHoods.columns.values:
+        geoOutNHoods['features'].append({'properties':{'Name': g['properties']['NAME']+' County', 'type':'County'}, 'geometry': g['geometry']})
 for c in ntas['features']:
     if c['properties']['ntaname'] in odNHoods.columns.values:
-        geoOutNHoods['features'].extend([c])
-geoOutNHoods['features'].extend([nj['features'][0]])
+        geoOutNHoods['features'].append({'properties':{'Name': c['properties']['ntaname'], 'type':'Neighbourhood'}, 'geometry': c['geometry']})
+geoOutNHoods['features'].append({'properties':{'Name': 'New Jersey', 'type':'State'}, 'geometry': nj['features'][0]['geometry']})
+
+#geoOutNHoods=nycCounties.copy()
+#geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odNHoods.columns.values]
+#for c in ntas['features']:
+#    if c['properties']['ntaname'] in odNHoods.columns.values:
+#        geoOutNHoods['features'].extend([c])
+#geoOutNHoods['features'].extend([nj['features'][0]])
 
 json.dump(geoOutComms, open('./results/allZonesComms.geojson', 'w'))
 json.dump(geoOutNHoods, open('./results/allZonesNHoods.geojson', 'w'))
+odCommsMode.to_csv('./results/od_communityDistricts_byMode.csv')
+odNHoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')

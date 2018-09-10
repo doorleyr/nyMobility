@@ -90,7 +90,7 @@ odNHoodsMode.to_csv('./results/od_neighbourhoods_byMode.csv')
 
 #create a geojson including all the zones for the community district aggregation
 geoOutComms=nycCounties.copy()
-geoOutComms['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odComms.columns.values]
+geoOutComms['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odComms.columns.values]
 for c in communities['features']:
     if c['properties']['Name'] in odComms.columns.values:
         geoOutComms['features'].extend([c])
@@ -98,7 +98,7 @@ geoOutComms['features'].extend([nj['features'][0]])
 
 #create a geojson including all the zones for the nta aggregation
 geoOutNHoods=nycCounties.copy()
-geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAMELSAD'] in odNHoods.columns.values]
+geoOutNHoods['features']=[g for g in nycCounties['features'] if g['properties']['NAME']+' County' in odNHoods.columns.values]
 for c in ntas['features']:
     if c['properties']['ntaname'] in odNHoods.columns.values:
         geoOutNHoods['features'].extend([c])

@@ -5,14 +5,12 @@ The nhtsSimple.py script uses data from the National House Travel Survey to cali
 
 blocks: an object which defines a set of city blocks and the number of people of each occupation type working in each block. The occupation types are:
 
-
-|1	| Sales or service										| 
-|---|-------------------------------------------------------|
-|2	| Clerical or administrative 							|
-|---|-------------------------------------------------------|
-|3	| Manufacturing, construction, maintenance, or farming	| 
-|---|-------------------------------------------------------|
-|4	| Professional, managerial, or technical 				|
+| Code 	| Description											|
+|-------|-------------------------------------------------------|
+| 1		| Sales or service										| 
+| 2		| Clerical or administrative 							|
+| 3		| Manufacturing, construction, maintenance, or farming	| 
+| 4		| Professional, managerial, or technical 				|
 
 maxDepth: the maximum depth of the decision tree which will be used to predict mode choice for each choice. This also corresponds to the number of if-else statements required to make the mode choice prediction.
 

@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<trip_leg_miles &le; 0.68<br/>gini = 0.75<br/>samples = 9962<br/>value = [2490.5, 2490.5, 2490.5, 2490.5]<br/>class = walk>, fillcolor="#399de500"] ;
+1 [label=<trip_leg_miles &le; 0.2855<br/>gini = 0.4854<br/>samples = 3412<br/>value = [279.3996, 615.1235, 2049.5946, 65.5069]<br/>class = walk>, fillcolor="#399de599"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<trip_leg_miles &le; 0.0435<br/>gini = 0.2855<br/>samples = 1865<br/>value = [67.6985, 165.0331, 1250.3179, 11.1238]<br/>class = walk>, fillcolor="#399de5d0"] ;
+1 -> 2 ;
+3 [label=<gini = 0.5291<br/>samples = 128<br/>value = [2.8686, 60.012, 83.982, 3.7079]<br/>class = walk>, fillcolor="#399de543"] ;
+2 -> 3 ;
+4 [label=<gini = 0.238<br/>samples = 1737<br/>value = [64.8299, 105.0211, 1166.3359, 7.4159]<br/>class = walk>, fillcolor="#399de5db"] ;
+2 -> 4 ;
+5 [label=<motif_HWWH &le; 0.5<br/>gini = 0.6128<br/>samples = 1547<br/>value = [211.7011, 450.0904, 799.2767, 54.3831]<br/>class = walk>, fillcolor="#399de554"] ;
+1 -> 5 ;
+6 [label=<gini = 0.5973<br/>samples = 1514<br/>value = [211.1274, 345.0693, 782.6251, 51.9112]<br/>class = walk>, fillcolor="#399de56b"] ;
+5 -> 6 ;
+7 [label=<gini = 0.2727<br/>samples = 33<br/>value = [0.5737, 105.0211, 16.6516, 2.472]<br/>class = cycle>, fillcolor="#47e539d1"] ;
+5 -> 7 ;
+8 [label=<trip_leg_miles &le; 4.6755<br/>gini = 0.7004<br/>samples = 6550<br/>value = [2211.1004, 1875.3765, 440.9054, 2424.9931]<br/>class = PT>, fillcolor="#d739e50c"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<hh_lifeCycle &le; 5.5<br/>gini = 0.7077<br/>samples = 3707<br/>value = [1281.1072, 1620.3253, 420.6339, 970.2444]<br/>class = cycle>, fillcolor="#47e5391d"] ;
+8 -> 9 ;
+10 [label=<gini = 0.6601<br/>samples = 1834<br/>value = [528.3922, 1350.2711, 252.6699, 585.8546]<br/>class = cycle>, fillcolor="#47e5395b"] ;
+9 -> 10 ;
+11 [label=<gini = 0.6713<br/>samples = 1873<br/>value = [752.715, 270.0542, 167.964, 384.3898]<br/>class = drive>, fillcolor="#e581394f"] ;
+9 -> 11 ;
+12 [label=<motif_HOOH &le; 0.5<br/>gini = 0.5694<br/>samples = 2843<br/>value = [929.9932, 255.0512, 20.2715, 1454.7486]<br/>class = PT>, fillcolor="#d739e54d"] ;
+8 -> 12 ;
+13 [label=<gini = 0.5218<br/>samples = 2135<br/>value = [620.7604, 150.0301, 13.7557, 1265.6437]<br/>class = PT>, fillcolor="#d739e573"] ;
+12 -> 13 ;
+14 [label=<gini = 0.617<br/>samples = 708<br/>value = [309.2328, 105.0211, 6.5158, 189.105]<br/>class = drive>, fillcolor="#e5813949"] ;
+12 -> 14 ;
+}

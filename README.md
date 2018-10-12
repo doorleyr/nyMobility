@@ -3,7 +3,7 @@ The nhtsSimple.py script uses data from the National House Travel Survey to cali
 
 ## Inputs
 
-blocks: an object which defines a set of city blocks and the number of people of each occupation type working in each block. The occupation types are:
+blocks.csv: an dataframe which defines one city block per row and specifies the number of people of each occupation type, the residential capacity and the capacity of the third places. The occupation types are:
 
 | Code 	| Description											|
 |-------|-------------------------------------------------------|
@@ -11,6 +11,7 @@ blocks: an object which defines a set of city blocks and the number of people of
 | 2		| Clerical or administrative 							|
 | 3		| Manufacturing, construction, maintenance, or farming	| 
 | 4		| Professional, managerial, or technical 				|
+| 5		| Student 												|
 
 maxDepth: the maximum depth of the decision tree which will be used to predict mode choice for each choice. This also corresponds to the number of if-else statements required to make the mode choice prediction.
 

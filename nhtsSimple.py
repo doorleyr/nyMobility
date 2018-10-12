@@ -103,13 +103,17 @@ patternDict={1:'H',
              9: 'HWOWH'}   
 
 # define the number of people in each occupation type for each block type in the library
-blocks={'block_1':
-            {'occupationCat_1':100, 'occupationCat_2':100, 'occupationCat_3':100, 'occupationCat_4':100},
-        'block_2':
-            {'occupationCat_1':200, 'occupationCat_2':300, 'occupationCat_3':400, 'occupationCat_4':500},
-        'block_3':
-            {'occupationCat_1':500, 'occupationCat_2':300, 'occupationCat_3':200, 'occupationCat_4':100}
-        }  
+#blocks={'block_1':
+#            {'occupationCat_1':100, 'occupationCat_2':100, 'occupationCat_3':100, 'occupationCat_4':100, 'occupationCat_5':100},
+#        'block_2':
+#            {'occupationCat_1':200, 'occupationCat_2':300, 'occupationCat_3':400, 'occupationCat_4':500, 'occupationCat_5':100}}
+#        }  
+blocks=pd.read_csv('blockData.csv')
+occTypes=[c for c in blocks.columns if 'occupationCat' in c]
+# create capacity constrained choice sets for resiential and third place locations
+resChoiceSet=[int(blocks.iloc[i]['Block']) for i in range(len(blocks)) for r in range(int(blocks.loc[i]['residential']))]
+thirdPlaceChoiceSet=[int(blocks.iloc[i]['Block']) for i in range(len(blocks)) for r in range(int(blocks.loc[i]['third_places']))]
+
 
 maxDepth=3 # the max number of if statements to decide on a mode choice
 
@@ -150,6 +154,9 @@ trips_nnn_nTrans['whyFromMapped']=trips_nnn_nTrans.apply(lambda row: whyDict[row
 persons['uniquePersonId']=persons.apply(lambda row: str(row['HOUSEID'])+'_'+str(row['PERSONID']), axis=1)
 persons_nnn=persons.loc[persons['uniquePersonId'].isin(trips_nnn_nTrans['uniquePersonId'])]
 
+# make a new OCCAT or students
+persons_nnn.at[persons_nnn['SCHTYP']>0,'OCCAT']=5
+
 #remove records with unknown variables that we need
 persons_nnn=persons_nnn.loc[persons_nnn['HHFAMINC']>=0]
 persons_nnn=persons_nnn.loc[persons_nnn['PRMACT']>=0] 
@@ -180,6 +187,7 @@ persons_nnn['daySched']=persons_nnn.apply(lambda row: daySched[row['uniquePerson
 # add the motif (simplest example of the mobility pattern) to the persons and trips dataframes
 persons_nnn['motif']=persons_nnn.apply(lambda row: patternDict[row['daySched']], axis=1)
 trips_nnn_nTrans['motif']=trips_nnn_nTrans.apply(lambda row: patternDict[row['daySched']], axis=1)
+allMotifs=set(trips_nnn_nTrans['motif'])
 
 personsSimple=persons_nnn[['HHFAMINC', 'LIF_CYC',  'OCCAT', 'R_AGE_IMP']]
 personsSimple=personsSimple.rename(columns={'HHFAMINC':'hh_income', 'LIF_CYC':'hh_lifeCycle',  'OCCAT':'occupation_type', 'R_AGE_IMP':'age'})
@@ -188,12 +196,18 @@ personsSimple=pd.concat([personsSimple, pd.get_dummies(persons_nnn['motif'], pre
 ######### Create the synthetic population based on the block characteristics ############### 
 
 simPop=pd.DataFrame()
-for b in blocks:
-    for typ, N in blocks[b].items():
+for b in range(len(blocks)):
+    for typ in occTypes:
         occat=int(typ.split('_')[1])
-        sample=personsSimple.loc[personsSimple['occupation_type']==occat].sample(n=N, replace=True)
-        sample['block']=b
-        simPop=simPop.append(sample)
+        N=blocks.iloc[b][typ]
+        if N>0:
+            sample=personsSimple.loc[personsSimple['occupation_type']==occat].sample(n=N, replace=True)
+            sample['work_block']=blocks.iloc[b]['Block']
+            simPop=simPop.append(sample)
+simPop['home_block']=np.random.choice(resChoiceSet,len(simPop), replace=False)
+simPop['third_places_block']=float('nan')
+goesThirdPlaces=simPop.apply(lambda row: bool(sum([row['motif_'+m] for m in allMotifs if 'O' in m])), axis=1).tolist()# identify people who need a 3rd place
+simPop.at[goesThirdPlaces, 'third_places_block']=np.random.choice(thirdPlaceChoiceSet,sum(goesThirdPlaces), replace=False)
 simPop=simPop.reset_index(drop=True)        
 simPop.to_csv('results/simPop.csv')
 
